@@ -1,0 +1,2701 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    UltimateXR.dll:
+    - UltimateXR.Animation.IK.UxrCcdIKSolver
+    - UltimateXR.Animation.IK.UxrWristTorsionIKSolver
+    - UltimateXR.Animation.Transforms.UxrAnimatedTransform
+    - UltimateXR.Animation.Transforms.UxrLookAtLocalAvatar
+    - UltimateXR.Avatar.Controllers.UxrStandardAvatarController
+    - UltimateXR.Avatar.UxrAvatar
+    - UltimateXR.Avatar.UxrHandIntegration
+    - UltimateXR.CameraUtils.UxrCameraWallFade
+    - UltimateXR.Devices.Integrations.HP.UxrHpReverbG2Input
+    - UltimateXR.Devices.Integrations.HP.UxrHpReverbG2Tracking
+    - UltimateXR.Devices.Integrations.HTC.UxrHtcViveCosmosInput
+    - UltimateXR.Devices.Integrations.HTC.UxrHtcViveCosmosTracking
+    - UltimateXR.Devices.Integrations.HTC.UxrHtcViveFocus3Input
+    - UltimateXR.Devices.Integrations.HTC.UxrHtcViveFocus3Tracking
+    - UltimateXR.Devices.Integrations.HTC.UxrHtcViveInput
+    - UltimateXR.Devices.Integrations.HTC.UxrHtcViveTracking
+    - UltimateXR.Devices.Integrations.Meta.UxrMetaHandTracking
+    - UltimateXR.Devices.Integrations.Meta.UxrMetaTouchQuest2Input
+    - UltimateXR.Devices.Integrations.Meta.UxrMetaTouchQuest2Tracking
+    - UltimateXR.Devices.Integrations.Microsoft.UxrWindowsMixedRealityInput
+    - UltimateXR.Devices.Integrations.Microsoft.UxrWindowsMixedRealityTracking
+    - UltimateXR.Devices.Integrations.Oculus.UxrMetaTouchQuest2InputSteamVR
+    - UltimateXR.Devices.Integrations.Oculus.UxrMetaTouchQuest2TrackingSteamVR
+    - UltimateXR.Devices.Integrations.Oculus.UxrOculusTouchRiftInput
+    - UltimateXR.Devices.Integrations.Oculus.UxrOculusTouchRiftInputSteamVR
+    - UltimateXR.Devices.Integrations.Oculus.UxrOculusTouchRiftSQuestInput
+    - UltimateXR.Devices.Integrations.Oculus.UxrOculusTouchRiftSQuestInputSteamVR
+    - UltimateXR.Devices.Integrations.Oculus.UxrOculusTouchRiftSQuestTracking
+    - UltimateXR.Devices.Integrations.Oculus.UxrOculusTouchRiftSQuestTrackingSteamVR
+    - UltimateXR.Devices.Integrations.Oculus.UxrOculusTouchRiftTracking
+    - UltimateXR.Devices.Integrations.Oculus.UxrOculusTouchRiftTrackingSteamVR
+    - UltimateXR.Devices.Integrations.Pico.UxrPicoNeo3Input
+    - UltimateXR.Devices.Integrations.Pico.UxrPicoNeo3Tracking
+    - UltimateXR.Devices.Integrations.UxrGamepadInput
+    - UltimateXR.Devices.Integrations.Valve.UxrValveIndexInput
+    - UltimateXR.Devices.Integrations.Valve.UxrValveIndexTracking
+    - UltimateXR.Devices.Visualization.UxrController3DModel
+    - UltimateXR.Devices.Visualization.UxrControllerHand
+    - UltimateXR.Guides.UxrCompass
+    - UltimateXR.Locomotion.UxrSmoothLocomotion
+    - UltimateXR.Locomotion.UxrTeleportLocomotion
+    - UltimateXR.Locomotion.UxrTeleportTarget
+    - UltimateXR.Locomotion.UxrTeleportTargetMaterialID
+    - UltimateXR.Manipulation.HandPoses.UxrHandPoseAsset
+    - UltimateXR.Manipulation.UxrGrabber
+    - UltimateXR.Mechanics.CyborgAvatar.RotateShoulder
+    - UltimateXR.Mechanics.CyborgAvatar.WristConnectionRays
+    - UltimateXR.UI.UxrFingerTip
+    - UltimateXR.UI.UxrLaserPointer
+    Unity.RenderPipelines.Core.Runtime.dll:
+    - UnityEngine.Rendering.UI.DebugUIHandlerBitField
+    - UnityEngine.Rendering.UI.DebugUIHandlerButton
+    - UnityEngine.Rendering.UI.DebugUIHandlerCanvas
+    - UnityEngine.Rendering.UI.DebugUIHandlerColor
+    - UnityEngine.Rendering.UI.DebugUIHandlerContainer
+    - UnityEngine.Rendering.UI.DebugUIHandlerEnumField
+    - UnityEngine.Rendering.UI.DebugUIHandlerEnumHistory
+    - UnityEngine.Rendering.UI.DebugUIHandlerFloatField
+    - UnityEngine.Rendering.UI.DebugUIHandlerFoldout
+    - UnityEngine.Rendering.UI.DebugUIHandlerGroup
+    - UnityEngine.Rendering.UI.DebugUIHandlerHBox
+    - UnityEngine.Rendering.UI.DebugUIHandlerIndirectFloatField
+    - UnityEngine.Rendering.UI.DebugUIHandlerIndirectToggle
+    - UnityEngine.Rendering.UI.DebugUIHandlerIntField
+    - UnityEngine.Rendering.UI.DebugUIHandlerMessageBox
+    - UnityEngine.Rendering.UI.DebugUIHandlerPanel
+    - UnityEngine.Rendering.UI.DebugUIHandlerPersistentCanvas
+    - UnityEngine.Rendering.UI.DebugUIHandlerRow
+    - UnityEngine.Rendering.UI.DebugUIHandlerToggle
+    - UnityEngine.Rendering.UI.DebugUIHandlerToggleHistory
+    - UnityEngine.Rendering.UI.DebugUIHandlerUIntField
+    - UnityEngine.Rendering.UI.DebugUIHandlerVBox
+    - UnityEngine.Rendering.UI.DebugUIHandlerValue
+    - UnityEngine.Rendering.UI.DebugUIHandlerVector2
+    - UnityEngine.Rendering.UI.DebugUIHandlerVector3
+    - UnityEngine.Rendering.UI.DebugUIHandlerVector4
+    - UnityEngine.Rendering.UI.UIFoldout
+    - UnityEngine.Rendering.Volume
+    - UnityEngine.Rendering.VolumeProfile
+    Unity.RenderPipelines.Universal.Editor.dll:
+    - UnityEditor.Rendering.Universal.UniversalProjectSettings
+    Unity.RenderPipelines.Universal.Runtime.dll:
+    - UnityEngine.Rendering.Universal.Bloom
+    - UnityEngine.Rendering.Universal.PostProcessData
+    - UnityEngine.Rendering.Universal.ScreenSpaceAmbientOcclusion
+    - UnityEngine.Rendering.Universal.Tonemapping
+    - UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
+    - UnityEngine.Rendering.Universal.UniversalAdditionalLightData
+    - UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset
+    - UnityEngine.Rendering.Universal.UniversalRenderPipelineGlobalSettings
+    - UnityEngine.Rendering.Universal.UniversalRendererData
+    - UnityEngine.Rendering.Universal.Vignette
+    - UnityEngine.Rendering.Universal.XRSystemData
+    Unity.Rider.Editor.dll:
+    - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.ShaderGraph.Editor.dll:
+    - UnityEditor.ShaderGraph.SubGraphAsset
+    Unity.XR.Management.Editor.dll:
+    - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
+    Unity.XR.Management.dll:
+    - UnityEngine.XR.Management.XRGeneralSettings
+    - UnityEngine.XR.Management.XRManagerSettings
+    Unity.XR.Oculus.dll:
+    - Unity.XR.Oculus.OculusLoader
+    - Unity.XR.Oculus.OculusSettings
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
+    - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventTrigger
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.ContentSizeFitter
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.HorizontalLayoutGroup
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.LayoutElement
+    - UnityEngine.UI.Mask
+    - UnityEngine.UI.ScrollRect
+    - UnityEngine.UI.Scrollbar
+    - UnityEngine.UI.Text
+    - UnityEngine.UI.Toggle
+    - UnityEngine.UI.VerticalLayoutGroup
+  serializedClasses:
+    UltimateXR:
+    - UltimateXR.Animation.IK.UxrBodyIKSettings
+    - UltimateXR.Animation.IK.UxrCcdLink
+    - UltimateXR.Animation.Interpolation.UxrInterpolationSettings
+    - UltimateXR.Avatar.Controllers.UxrAvatarControllerEvent
+    - UltimateXR.Avatar.Rig.UxrAvatarArm
+    - UltimateXR.Avatar.Rig.UxrAvatarArmInfo
+    - UltimateXR.Avatar.Rig.UxrAvatarFinger
+    - UltimateXR.Avatar.Rig.UxrAvatarFingerBoneInfo
+    - UltimateXR.Avatar.Rig.UxrAvatarFingerInfo
+    - UltimateXR.Avatar.Rig.UxrAvatarHand
+    - UltimateXR.Avatar.Rig.UxrAvatarHead
+    - UltimateXR.Avatar.Rig.UxrAvatarLeg
+    - UltimateXR.Avatar.Rig.UxrAvatarRig
+    - UltimateXR.Avatar.Rig.UxrAvatarRigInfo
+    - UltimateXR.Core.Math.UxrUniversalLocalAxes
+    - UltimateXR.Devices.UxrHandTracking/BoneCalibration
+    - UltimateXR.Devices.Visualization.UxrControllerHand/FingerIK
+    - UltimateXR.Devices.Visualization.UxrControllerHand/ObjectVariation
+    - UltimateXR.Devices.Visualization.UxrControllerHand/ObjectVariation/MaterialVariation
+    - UltimateXR.Manipulation.HandPoses.UxrFingerDescriptor
+    - UltimateXR.Manipulation.HandPoses.UxrFingerNodeDescriptor
+    - UltimateXR.Manipulation.HandPoses.UxrHandDescriptor
+    - UltimateXR.Mechanics.CyborgAvatar.WristConnectionRays/RayProperties
+    Unity.RenderPipelines.Core.Runtime:
+    - UnityEngine.Rendering.BoolParameter
+    - UnityEngine.Rendering.ClampedFloatParameter
+    - UnityEngine.Rendering.ClampedIntParameter
+    - UnityEngine.Rendering.ColorParameter
+    - UnityEngine.Rendering.MinFloatParameter
+    - UnityEngine.Rendering.TextureParameter
+    - UnityEngine.Rendering.UI.DebugUIPrefabBundle
+    - UnityEngine.Rendering.Vector2Parameter
+    Unity.RenderPipelines.Universal.Runtime:
+    - UnityEngine.Rendering.Universal.PostProcessData/ShaderResources
+    - UnityEngine.Rendering.Universal.PostProcessData/TextureResources
+    - UnityEngine.Rendering.Universal.ScreenSpaceAmbientOcclusionSettings
+    - UnityEngine.Rendering.Universal.ScriptableRendererData/DebugShaderResources
+    - UnityEngine.Rendering.Universal.StencilStateData
+    - UnityEngine.Rendering.Universal.TonemappingModeParameter
+    - UnityEngine.Rendering.Universal.UniversalRendererData/ShaderResources
+    - UnityEngine.Rendering.Universal.XRSystemData/ShaderResources
+    UnityEngine.CoreModule:
+    - UnityEngine.Events.ArgumentCache
+    - UnityEngine.Events.PersistentCallGroup
+    - UnityEngine.Events.PersistentListenerMode
+    - UnityEngine.RectOffset
+    UnityEngine.UI:
+    - UnityEngine.EventSystems.EventTrigger/Entry
+    - UnityEngine.EventSystems.EventTrigger/TriggerEvent
+    - UnityEngine.UI.AnimationTriggers
+    - UnityEngine.UI.Button/ButtonClickedEvent
+    - UnityEngine.UI.ColorBlock
+    - UnityEngine.UI.FontData
+    - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+    - UnityEngine.UI.Navigation
+    - UnityEngine.UI.ScrollRect/ScrollRectEvent
+    - UnityEngine.UI.Scrollbar/ScrollEvent
+    - UnityEngine.UI.SpriteState
+    - UnityEngine.UI.Toggle/ToggleEvent
+  methodsToPreserve:
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerPanel
+    methodName: OnScrollbarClicked
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerPanel
+    methodName: OnScrollbarClicked
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerIntField
+    methodName: OnIncrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerIntField
+    methodName: OnDecrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerIntField
+    methodName: OnDecrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerIntField
+    methodName: OnIncrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerUIntField
+    methodName: OnDecrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerUIntField
+    methodName: OnIncrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerUIntField
+    methodName: OnIncrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerUIntField
+    methodName: OnDecrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerPanel
+    methodName: ResetDebugManager
+  sceneClasses:
+    Assets/Scenes/Hub_Room.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1772}
+    - Class: 114
+      Script: {instanceID: 1774}
+    - Class: 114
+      Script: {instanceID: 1776}
+    - Class: 114
+      Script: {instanceID: 1778}
+    - Class: 114
+      Script: {instanceID: 1780}
+    - Class: 114
+      Script: {instanceID: 1786}
+    - Class: 114
+      Script: {instanceID: 1842}
+    - Class: 114
+      Script: {instanceID: 1850}
+    - Class: 114
+      Script: {instanceID: 1892}
+    - Class: 114
+      Script: {instanceID: 1932}
+    - Class: 114
+      Script: {instanceID: 2460}
+    - Class: 114
+      Script: {instanceID: 2546}
+    - Class: 114
+      Script: {instanceID: 2678}
+    - Class: 114
+      Script: {instanceID: 2772}
+    - Class: 114
+      Script: {instanceID: 3124}
+    - Class: 114
+      Script: {instanceID: 3238}
+    - Class: 114
+      Script: {instanceID: 3314}
+    - Class: 114
+      Script: {instanceID: 3452}
+    - Class: 114
+      Script: {instanceID: 3538}
+    - Class: 114
+      Script: {instanceID: 3904}
+    - Class: 114
+      Script: {instanceID: 3996}
+    - Class: 114
+      Script: {instanceID: 4118}
+    - Class: 114
+      Script: {instanceID: 4328}
+    - Class: 114
+      Script: {instanceID: 4630}
+    - Class: 114
+      Script: {instanceID: 4742}
+    - Class: 114
+      Script: {instanceID: 4760}
+    - Class: 114
+      Script: {instanceID: 4766}
+    - Class: 114
+      Script: {instanceID: 4784}
+    - Class: 114
+      Script: {instanceID: 4834}
+    - Class: 114
+      Script: {instanceID: 4868}
+    - Class: 114
+      Script: {instanceID: 4886}
+    - Class: 114
+      Script: {instanceID: 5006}
+    - Class: 114
+      Script: {instanceID: 5026}
+    - Class: 114
+      Script: {instanceID: 5214}
+    - Class: 114
+      Script: {instanceID: 5484}
+    - Class: 114
+      Script: {instanceID: 5548}
+    - Class: 114
+      Script: {instanceID: 5636}
+    - Class: 114
+      Script: {instanceID: 5702}
+    - Class: 114
+      Script: {instanceID: 5740}
+    - Class: 114
+      Script: {instanceID: 5902}
+    - Class: 114
+      Script: {instanceID: 6058}
+    - Class: 114
+      Script: {instanceID: 6156}
+    - Class: 114
+      Script: {instanceID: 6346}
+    - Class: 114
+      Script: {instanceID: 6558}
+    - Class: 114
+      Script: {instanceID: 6586}
+    - Class: 114
+      Script: {instanceID: 6874}
+    - Class: 114
+      Script: {instanceID: 6892}
+    - Class: 114
+      Script: {instanceID: 7008}
+    - Class: 114
+      Script: {instanceID: 7516}
+    - Class: 114
+      Script: {instanceID: 7554}
+    - Class: 114
+      Script: {instanceID: 7688}
+    - Class: 114
+      Script: {instanceID: 7700}
+    - Class: 114
+      Script: {instanceID: 7764}
+    - Class: 114
+      Script: {instanceID: 7814}
+    - Class: 114
+      Script: {instanceID: 7872}
+    - Class: 114
+      Script: {instanceID: 7884}
+    - Class: 114
+      Script: {instanceID: 7958}
+    - Class: 114
+      Script: {instanceID: 8398}
+    - Class: 114
+      Script: {instanceID: 8496}
+    - Class: 114
+      Script: {instanceID: 8572}
+    - Class: 114
+      Script: {instanceID: 8574}
+    - Class: 114
+      Script: {instanceID: 8658}
+    - Class: 114
+      Script: {instanceID: 8746}
+    - Class: 114
+      Script: {instanceID: 9030}
+    - Class: 114
+      Script: {instanceID: 9278}
+    - Class: 114
+      Script: {instanceID: 9292}
+    - Class: 114
+      Script: {instanceID: 9304}
+    - Class: 114
+      Script: {instanceID: 9358}
+    - Class: 114
+      Script: {instanceID: 9364}
+    - Class: 114
+      Script: {instanceID: 9466}
+    - Class: 114
+      Script: {instanceID: 9496}
+    - Class: 114
+      Script: {instanceID: 9598}
+    - Class: 114
+      Script: {instanceID: 9762}
+    - Class: 114
+      Script: {instanceID: 9784}
+    - Class: 114
+      Script: {instanceID: 9826}
+    - Class: 114
+      Script: {instanceID: 9864}
+    - Class: 114
+      Script: {instanceID: 10180}
+    - Class: 114
+      Script: {instanceID: 10262}
+    - Class: 114
+      Script: {instanceID: 10486}
+    - Class: 114
+      Script: {instanceID: 10640}
+    - Class: 114
+      Script: {instanceID: 10722}
+    - Class: 114
+      Script: {instanceID: 10806}
+    - Class: 114
+      Script: {instanceID: 10816}
+    - Class: 114
+      Script: {instanceID: 10952}
+    - Class: 114
+      Script: {instanceID: 11016}
+    - Class: 114
+      Script: {instanceID: 11136}
+    - Class: 114
+      Script: {instanceID: 11226}
+    - Class: 114
+      Script: {instanceID: 11306}
+    - Class: 114
+      Script: {instanceID: 11424}
+    - Class: 114
+      Script: {instanceID: 11474}
+    - Class: 114
+      Script: {instanceID: 11822}
+    - Class: 114
+      Script: {instanceID: 12032}
+    - Class: 114
+      Script: {instanceID: 12128}
+    - Class: 114
+      Script: {instanceID: 12488}
+    - Class: 114
+      Script: {instanceID: 12520}
+    - Class: 114
+      Script: {instanceID: 12570}
+    - Class: 114
+      Script: {instanceID: 12774}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: bcaee4c2a83047257b5f47d6ed264b75
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: 699619b86d9359741a4f58540298c80b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: a6e561615949734e9f12f9b61661f43e
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: f69dfc6409fbbd89d3689368e99688a8
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerVector2
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UIElements
+    className: PanelRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 9989f454f4ff017b08cedf517dc1f18e
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Animation.GameObjects
+    className: UxrToggleObjectsUsingButtons
+  - hash:
+      serializedVersion: 2
+      Hash: 3bbbd4faf5f05d047c3ea075b92cff9f
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Animation.IK
+    className: UxrArmIKSolver
+  - hash:
+      serializedVersion: 2
+      Hash: 6a80440be415fd403f34cb948fdeac9e
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Mechanics.CyborgAvatar
+    className: RotateShoulder
+  - hash:
+      serializedVersion: 2
+      Hash: b4ccd3465d99901966f9ba4018840b70
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Devices.Integrations.HTC
+    className: UxrHtcViveFocus3Tracking
+  - hash:
+      serializedVersion: 2
+      Hash: d92c62b9b297cb6e5c698fe77b4be0e2
+    assemblyName: Unity.XR.Oculus.dll
+    namespaceName: Unity.XR.Oculus
+    className: OculusSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 2bb1b524fb2ce91292d415c49ccb8da1
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Devices.Integrations.HP
+    className: UxrHpReverbG2Input
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnScrollbarValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 0dbc3be398b4869a5c8d0d8481ee402c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: 6bc76e17f0d5e93f3eea7f5a2fe227f3
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: 8e13bb05c31d315b9db3d7ff2211c3a9
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: DepthOfField
+  - hash:
+      serializedVersion: 2
+      Hash: 9f0d2156cb2876cc856eb040bfe23e76
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: CompositeShadowCaster2D
+  - hash:
+      serializedVersion: 2
+      Hash: cecda2c3b093bc772ff957b6da0415a7
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: WhiteBalance
+  - hash:
+      serializedVersion: 2
+      Hash: c0ca525b29943dba4a797f8097a4c54c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: UltimateXR.Examples.FullScene.Lab
+    className: Battery
+  - hash:
+      serializedVersion: 2
+      Hash: e7f100df65b52291bed8addbf35df943
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Animation.Avatars
+    className: UxrFaceGestures
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnDropMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.UI.UnityInputModule.Utils
+    className: UxrControlInputDestroyOnPress
+  - hash:
+      serializedVersion: 2
+      Hash: 238b2bc28e83af519b9a8750d150a179
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Experimental.Rendering
+    className: ProbeVolumePerSceneData
+  - hash:
+      serializedVersion: 2
+      Hash: 5e1eefcd5106de6c2e85908a3b2d3f04
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerToggle
+  - hash:
+      serializedVersion: 2
+      Hash: 4822a11cdda6e9f95cff1a208c05b791
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ColorLookup
+  - hash:
+      serializedVersion: 2
+      Hash: 45763041aa24f80b7bd0724e2341a367
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Devices.Integrations.Pico
+    className: UxrPicoNeo3Input
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Rendering.LOD
+    className: UxrLODGroup
+  - hash:
+      serializedVersion: 2
+      Hash: bf870802db6c8f33891c456d1f13db73
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.UI.Helpers.HiScores
+    className: UxrHiScoresPanelEnterName
+  - hash:
+      serializedVersion: 2
+      Hash: 31995eb8416877c9afd92b5d1b50df0d
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: XRSystemData
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnBecameVisibleMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.CameraUtils
+    className: UxrIgnoreWallFade
+  - hash:
+      serializedVersion: 2
+      Hash: b4ccd3465d99901966f9ba4018840b70
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Devices.Integrations.Pico
+    className: UxrPicoNeo3Tracking
+  - hash:
+      serializedVersion: 2
+      Hash: c822eec45bd7c5f6d7c8a2d82a6feb07
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: fb104f6ecc5e46d887e4daded9eacf7e
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Guides
+    className: UxrCompass
+  - hash:
+      serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.UI.UnityInputModule
+    className: UxrLaserPointerRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 865badd217302014bb89063601836039
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Experimental.Rendering
+    className: ProbeReferenceVolumeProfile
+  - hash:
+      serializedVersion: 2
+      Hash: 1f0602e7bad1e0a9cba31ce292eee8bb
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerWidget
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: CoroutineRunner
+  - hash:
+      serializedVersion: 2
+      Hash: 8fbc134fd506d97c845cf2b715231396
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnButtonClickMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnDropdownValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: fd93954933df02d4aca54708bc6a98f4
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Animation.UI
+    className: UxrCanvasAlphaTween
+  - hash:
+      serializedVersion: 2
+      Hash: c4145459e47d8cffae59dd84b8443432
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Manipulation
+    className: UxrGrabPointShapeAxisAngle
+  - hash:
+      serializedVersion: 2
+      Hash: 69415240821be7986b27e72bf9609a30
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnInputFieldValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseDownMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 0ad12b0dfb273cc18645f6e23449873e
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.UI.Helpers.Keyboard
+    className: UxrKeyboardUI
+  - hash:
+      serializedVersion: 2
+      Hash: eaed50c9f3e1e24d3feb4c8b2f00278d
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerEnumField
+  - hash:
+      serializedVersion: 2
+      Hash: 25c0a6f0f19db4b7789f7a86bdcf4acc
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: UniversalRenderPipelineGlobalSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 2388eb9e99b86b3813e7b6dbfe4b3e0c
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
+    assemblyName: Unity.VisualScripting.Flow.dll
+    namespaceName: Unity.VisualScripting
+    className: ScriptMachine
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnSelectMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: abf5234c54b1ea6a812ec2756b168f38
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Mechanics.Weapons
+    className: UxrImpactDecal
+  - hash:
+      serializedVersion: 2
+      Hash: a20360125f3486028e54d37426ec373b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: UltimateXR.Examples.FullScene.Lab
+    className: Lamp
+  - hash:
+      serializedVersion: 2
+      Hash: 40cfbb49ea9f9ab8b89fa7e41429ee2b
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: DecalRendererFeature
+  - hash:
+      serializedVersion: 2
+      Hash: 1f0602e7bad1e0a9cba31ce292eee8bb
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerVBox
+  - hash:
+      serializedVersion: 2
+      Hash: 98aa0a0c8ff2910eb12af89c7e0eb661
+    assemblyName: Unity.XR.Management.dll
+    namespaceName: UnityEngine.XR.Management
+    className: XRGeneralSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 27ec3360f0c0a6803ba71cc3106480b8
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshPro
+  - hash:
+      serializedVersion: 2
+      Hash: bd3cf68c8964d3c66d1c43f4f98508c9
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionExit2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 8ab9295d94483c961936d82d233d3df2
+    assemblyName: Unity.XR.Management.dll
+    namespaceName: UnityEngine.XR.Management
+    className: XRManagerSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 433926b482112cd6605a31187752ce1b
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Animation.Transforms
+    className: UxrAnimatedTransform
+  - hash:
+      serializedVersion: 2
+      Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
+    assemblyName: Unity.VisualScripting.Flow.dll
+    namespaceName: Unity.VisualScripting
+    className: ScriptGraphAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 73b09586a6a8aba1842882cd0f6d5c8b
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.UI.UnityInputModule.Controls
+    className: UxrToggleControlInput
+  - hash:
+      serializedVersion: 2
+      Hash: 1a3f2c0ce627724d0e4c0aa3737ea7ef
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Audio
+    className: UxrAudioManipulation
+  - hash:
+      serializedVersion: 2
+      Hash: 67026e16a78293eea2cdd4ae22b4ec68
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ColorAdjustments
+  - hash:
+      serializedVersion: 2
+      Hash: 45763041aa24f80b7bd0724e2341a367
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Devices.Integrations
+    className: UxrDummyControllerInput
+  - hash:
+      serializedVersion: 2
+      Hash: a5781dc71a671b1ad2b38de19f24b71f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: c852e4ba8d28f58150e6ca2357edc589
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Mechanics.Weapons
+    className: UxrFirearmAmmoLabel
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 908b3077da284d11de0450423ca1808e
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: 644b2961e0b889a0d8d101df867e528a
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.CameraUtils
+    className: UxrCameraWallFade
+  - hash:
+      serializedVersion: 2
+      Hash: a3e06ce510c3e25c27a704bcb3a27788
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Rendering.FX
+    className: UxrPlanarReflectionBrp
+  - hash:
+      serializedVersion: 2
+      Hash: 09595e38e02a5464def0e96a6f196ea8
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: MotionBlur
+  - hash:
+      serializedVersion: 2
+      Hash: f5492f2795841ae56c676cec62f19f27
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Animation.Lights
+    className: UxrAnimatedLightIntensity
+  - hash:
+      serializedVersion: 2
+      Hash: cd1e91f5afed259a1512bbf18dc12bd7
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: 
+    className: SceneRenderPipeline
+  - hash:
+      serializedVersion: 2
+      Hash: 87ad3705a58f19c47136728d4a6e9c47
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnJointBreak2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: d5148808ee237d1a94d7b824ce984e09
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: Bloom
+  - hash:
+      serializedVersion: 2
+      Hash: e24ced2330b0e717717bbd7b20dea448
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: UltimateXR.Examples.FullScene.Lab
+    className: LightBulb
+  - hash:
+      serializedVersion: 2
+      Hash: 6b6f584485f2c13c33115b8f545d41d1
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.UI.UnityInputModule.Utils
+    className: UxrDynamicPixelsPerUnit
+  - hash:
+      serializedVersion: 2
+      Hash: ec48985e2e7d17976869b1a99e17b00c
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Animation.ParticleSystems
+    className: UxrToggleEmitParticles
+  - hash:
+      serializedVersion: 2
+      Hash: b4ccd3465d99901966f9ba4018840b70
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Devices.Integrations.HP
+    className: UxrHpReverbG2Tracking
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCancelMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: fa4f6eca117e7813abec0526e69d486a
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Mechanics.CyborgAvatar
+    className: WristConnectionRays
+  - hash:
+      serializedVersion: 2
+      Hash: 56d5f6d5e13140af4c901d8714d19f79
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Animation.Materials
+    className: UxrAnimatedTextureFlipbook
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerClickMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 7d1a3e12579b7bd0f94909057ffba8d0
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering
+    className: CameraSwitcher
+  - hash:
+      serializedVersion: 2
+      Hash: e1944477d8f50021e8760157af7801c2
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: UniversalRenderPipelineEditorResources
+  - hash:
+      serializedVersion: 2
+      Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: MacroScriptableObject
+  - hash:
+      serializedVersion: 2
+      Hash: 7ab0e790220bdca831fdd886b339039d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnBeginDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 4d51d5ccf37d2089bdfe827617b784ff
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering
+    className: VolumeProfile
+  - hash:
+      serializedVersion: 2
+      Hash: 52bcb9c2a78bdd8d98a59e915c346e75
+    assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
+    namespaceName: UnityEngine.XR.LegacyInputHelpers
+    className: TransitionArmModel
+  - hash:
+      serializedVersion: 2
+      Hash: 1aedc5b2b830c44b29913016d3caf9ec
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Devices.Integrations.Meta
+    className: UxrMetaHandTracking
+  - hash:
+      serializedVersion: 2
+      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: a618244fbab3e60c4dd425a941e57533
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Locomotion
+    className: UxrSmoothLocomotion
+  - hash:
+      serializedVersion: 2
+      Hash: afb2c97a850b9b9f6c5867e523a96785
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Devices.Visualization
+    className: UxrMapControllerToHand
+  - hash:
+      serializedVersion: 2
+      Hash: 18c1fc7c41863b635e438bc66180883a
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Animation.Transforms
+    className: UxrPositionInFrontOfCamera
+  - hash:
+      serializedVersion: 2
+      Hash: a112aec0d5dfbc494163d40543d060b5
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.UI
+    className: UxrLaserPointer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionEnter2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 5e1eefcd5106de6c2e85908a3b2d3f04
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerIndirectToggle
+  - hash:
+      serializedVersion: 2
+      Hash: 0f556b35ee02cd4f48beefd7b3db3bb4
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.UI.UnityInputModule.Utils
+    className: UxrButton3DPress
+  - hash:
+      serializedVersion: 2
+      Hash: f3831b2e40ea8d8ffad3bc680b5d6d4d
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Devices.Integrations.Oculus
+    className: UxrOculusTouchRiftSQuestInputSteamVR
+  - hash:
+      serializedVersion: 2
+      Hash: bcdb6d51ccbf36717851fd2e572e7ac9
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Devices.Visualization
+    className: UxrControllerHand
+  - hash:
+      serializedVersion: 2
+      Hash: a45d5d54ead3aa6fde26e3fffc88ecfa
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Animation.GameObjects
+    className: UxrObjectBlink
+  - hash:
+      serializedVersion: 2
+      Hash: 4ac50f132ff766a577d10c40f11d2ead
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Experimental.Rendering
+    className: ProbeVolumeAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UIElements
+    className: PanelEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: fc51c55732abce29ff689d76a5d89451
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.UI.UnityInputModule
+    className: UxrPointerInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 8d35f16c5022311c6f4d9432be73bfcf
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerUIntField
+  - hash:
+      serializedVersion: 2
+      Hash: 3e40d61d16adb83b65bae44f507f4b61
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Animation.Transforms
+    className: UxrLookAt
+  - hash:
+      serializedVersion: 2
+      Hash: f2c8eee40bc4e1d31f246b6ef22d7569
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.UI.UnityInputModule
+    className: UxrCanvas
+  - hash:
+      serializedVersion: 2
+      Hash: f7d8c5e1d036889d8802fe3a5cce7c75
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerPanel
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 91b88754bf9811ac48197b0030dd8c88
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ColorCurves
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnDeselectMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 05795a1a2692a28648b2f5fb6bdeb0e7
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Animation.Materials
+    className: UxrMaterialRenderQueue
+  - hash:
+      serializedVersion: 2
+      Hash: 5dc2b0157b82bef38199575364b28690
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Guides
+    className: UxrCompassTargetHint
+  - hash:
+      serializedVersion: 2
+      Hash: 7b3d225ffb01d61b84e7ff2151c72925
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.UI.UnityInputModule.Controls
+    className: UxrControlInput
+  - hash:
+      serializedVersion: 2
+      Hash: da0af24d5acdaece66e46714b91da173
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Locomotion
+    className: UxrParentAvatarDestination
+  - hash:
+      serializedVersion: 2
+      Hash: 7df789d7b3f018bc4ddd0aecd269cbba
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Experimental.Rendering.Universal
+    className: PixelPerfectCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 164221013889a03b3422d30debb35460
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering
+    className: VolumeComponent
+  - hash:
+      serializedVersion: 2
+      Hash: b4ccd3465d99901966f9ba4018840b70
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Devices.Integrations.HTC
+    className: UxrHtcViveTracking
+  - hash:
+      serializedVersion: 2
+      Hash: 401d42ff22740fa50cd085ed4c27fd0e
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Animation.Components
+    className: UxrToggleComponent
+  - hash:
+      serializedVersion: 2
+      Hash: 1a158857d1dc8100c167b924580a9533
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: UltimateXR.Examples.FullScene.Doors
+    className: AutomaticDoor
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: AnimatorMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 5b05daa20c613791b5c2d1c95afd8a9a
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.UI.Helpers.HiScores
+    className: UxrHiScoresPanelEntries
+  - hash:
+      serializedVersion: 2
+      Hash: 8d35f16c5022311c6f4d9432be73bfcf
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerValue
+  - hash:
+      serializedVersion: 2
+      Hash: 760787567e1b60d64a3e421ab83ee14a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: c09a385e19c8cdeecfd35810667d4064
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Haptics.Helpers
+    className: UxrManipulationHapticFeedback
+  - hash:
+      serializedVersion: 2
+      Hash: 8d35f16c5022311c6f4d9432be73bfcf
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerIntField
+  - hash:
+      serializedVersion: 2
+      Hash: 91bbe67c3e33d61ae760936f043db32a
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: LiftGammaGain
+  - hash:
+      serializedVersion: 2
+      Hash: 0613d3ec0ebba06b98e67ef82e31c291
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Haptics.Helpers
+    className: UxrHapticOnImpact
+  - hash:
+      serializedVersion: 2
+      Hash: 574bd04fcf5e935ec5717a786cae0721
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Manipulation.Helpers
+    className: UxrDependentGrabbable
+  - hash:
+      serializedVersion: 2
+      Hash: bb6b9a25e695d7981ce2d853a697a828
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerVector4
+  - hash:
+      serializedVersion: 2
+      Hash: 684ecc9137a6228c345c1b6178c1ac21
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Mechanics.Weapons
+    className: UxrOverrideImpactDecal
+  - hash:
+      serializedVersion: 2
+      Hash: b7d58df3c6d92c60e3611c0a808aa0dc
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerBitField
+  - hash:
+      serializedVersion: 2
+      Hash: f3831b2e40ea8d8ffad3bc680b5d6d4d
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Devices.Integrations.Oculus
+    className: UxrOculusTouchRiftInputSteamVR
+  - hash:
+      serializedVersion: 2
+      Hash: 5dea360fb0b147724ac344e6f399c2f3
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: 8e6ceabfd38a184413d69b7db56c89cc
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools
+    className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: bde1916b9c6cfed5c0a0fa83be243321
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Avatar.Controllers
+    className: UxrStandardAvatarController
+  - hash:
+      serializedVersion: 2
+      Hash: fc42f1998a379179e21d7f054940514a
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Mechanics.Weapons
+    className: UxrProjectileDeflect
+  - hash:
+      serializedVersion: 2
+      Hash: 1a158857d1dc8100c167b924580a9533
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: UltimateXR.Examples.FullScene.Doors
+    className: ArmoredDoor
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 678cd74aaea8e492b007d1a237154df5
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Mechanics.Weapons
+    className: UxrMuzzleFlash
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: 36025d42bf23fda83a55bf1429201821
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerRow
+  - hash:
+      serializedVersion: 2
+      Hash: 23b60c4b16cdff673a68d1af70fe729c
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering
+    className: LensFlareDataSRP
+  - hash:
+      serializedVersion: 2
+      Hash: 435b91cde8a03bad1d5c99895fa46992
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Experimental.Rendering
+    className: ProbeVolume
+  - hash:
+      serializedVersion: 2
+      Hash: 45763041aa24f80b7bd0724e2341a367
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Devices.Integrations.Oculus
+    className: UxrOculusTouchRiftInput
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: PositionAsUV1
+  - hash:
+      serializedVersion: 2
+      Hash: 02896bd92bb5fcbb908fd99858fc8931
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.CameraUtils
+    className: UxrCameraDepthEnable
+  - hash:
+      serializedVersion: 2
+      Hash: 95b675f0230fcd0c660f7e8b8b032dce
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Manipulation.HandPoses
+    className: UxrHandPoseAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnSubmitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: a81d4c2c1cf3ad164d277d927a193679
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 993791ff16c35d1ff53c6e32e95a26bf
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Mechanics.Weapons
+    className: UxrGrenadeWeapon
+  - hash:
+      serializedVersion: 2
+      Hash: b09b5ba26567b7493ba27bc8c13ac009
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Animation.Materials
+    className: UxrAnimatedMaterial
+  - hash:
+      serializedVersion: 2
+      Hash: 670079212d080d6531fca1a1b573ad6d
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Mechanics.Weapons
+    className: UxrFirearmMag
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: eb8617c5341d368c01182812be25ee85
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Manipulation
+    className: UxrGrabbableObject
+  - hash:
+      serializedVersion: 2
+      Hash: f3831b2e40ea8d8ffad3bc680b5d6d4d
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Devices.Integrations.Oculus
+    className: UxrMetaTouchQuest2InputSteamVR
+  - hash:
+      serializedVersion: 2
+      Hash: 775cb71fe628cc1abe9811337bf8b34e
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: UniversalAdditionalLightData
+  - hash:
+      serializedVersion: 2
+      Hash: 251b7e456dfa0946927ebac4efecd211
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine
+    className: LightAnchor
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 924151518b0617aca3f4a3b2e422689f
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: DecalProjector
+  - hash:
+      serializedVersion: 2
+      Hash: f852f52b9088b6282af14402e41dd8ed
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Animation.UI
+    className: UxrPositionTween
+  - hash:
+      serializedVersion: 2
+      Hash: c7ca3edafb8e741c47580e0b44ff1b0b
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Manipulation
+    className: UxrGrabbableObjectAnchor
+  - hash:
+      serializedVersion: 2
+      Hash: 468c29065ed224d5fead10af43a7ee0b
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Animation.GameObjects
+    className: UxrToggleObject
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnParticleCollisionMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseOverMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: f3831b2e40ea8d8ffad3bc680b5d6d4d
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Devices.Integrations.Valve
+    className: UxrValveIndexInput
+  - hash:
+      serializedVersion: 2
+      Hash: d9cd864656f8023eb8184fae1b1d26d6
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Mechanics.Weapons
+    className: UxrFirearmWeapon
+  - hash:
+      serializedVersion: 2
+      Hash: 0a3fa1a367fddc65eb32515029503334
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerButton
+  - hash:
+      serializedVersion: 2
+      Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: Variables
+  - hash:
+      serializedVersion: 2
+      Hash: e177e990398c7de7c6da7e29da880bf1
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.UI.Helpers.HiScores
+    className: UxrHiScoresEntry
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: CinemachineUniversalPixelPerfect
+  - hash:
+      serializedVersion: 2
+      Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
+    assemblyName: Unity.VisualScripting.State.dll
+    namespaceName: Unity.VisualScripting
+    className: StateMachine
+  - hash:
+      serializedVersion: 2
+      Hash: ce45adeb5a6c511e1bbc3a5dfad5889e
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: UniversalRendererData
+  - hash:
+      serializedVersion: 2
+      Hash: e7a73f5f78ba6445195ec23b74a1ce2d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: ad6d2c5be0082b60640446f3bbe0d1fd
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering
+    className: Volume
+  - hash:
+      serializedVersion: 2
+      Hash: 8220b46879dc5e37db1b940c938f5744
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnToggleValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: abf1930d8126d0b2e00e9449129a0190
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Core.Threading
+    className: UxrMonoDispatcher
+  - hash:
+      serializedVersion: 2
+      Hash: da4f408a38da9dfa00f398d4b7d454dd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: UltimateXR.Examples.FullScene.Lab
+    className: BatteryAnchor
+  - hash:
+      serializedVersion: 2
+      Hash: 04e4a8b0447477cc4e933d9e5311188f
+    assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
+    namespaceName: UnityEngine.XR.LegacyInputHelpers
+    className: ArmModel
+  - hash:
+      serializedVersion: 2
+      Hash: ca0b8ad3987cd33b3209a508b6e1562e
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering
+    className: FreeCamera
+  - hash:
+      serializedVersion: 2
+      Hash: da2cbbc2ea21e2dc114b95957e299511
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.UI.UnityInputModule
+    className: UxrFingerTipRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalAsset
+  - hash:
+      serializedVersion: 2
+      Hash: f1629c6f2e2b541a09108a5f7d0f3578
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ScreenSpaceAmbientOcclusion
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionStayMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 45763041aa24f80b7bd0724e2341a367
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Devices.Integrations.HTC
+    className: UxrHtcViveFocus3Input
+  - hash:
+      serializedVersion: 2
+      Hash: f3831b2e40ea8d8ffad3bc680b5d6d4d
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Devices.Integrations.HTC
+    className: UxrHtcViveInput
+  - hash:
+      serializedVersion: 2
+      Hash: 6da05449502c54a7bf3cc65b493806ee
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Experimental.Rendering.Universal
+    className: RenderObjects
+  - hash:
+      serializedVersion: 2
+      Hash: 7ef9ba06b2c5230101229123776aac42
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Animation.IK
+    className: UxrWristTorsionIKSolver
+  - hash:
+      serializedVersion: 2
+      Hash: b4ccd3465d99901966f9ba4018840b70
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Devices.Integrations.Oculus
+    className: UxrOculusTouchRiftSQuestTrackingSteamVR
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTriggerEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Manipulation
+    className: UxrGrabbableObjectSnapTransform
+  - hash:
+      serializedVersion: 2
+      Hash: 800c50acba124432abb4cf0d47202e06
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: 48171275c384d4030c05c7d7d6c6c0c0
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Devices.Visualization
+    className: UxrController3DModel
+  - hash:
+      serializedVersion: 2
+      Hash: 37f36549386194b9d9045f52f4be01d2
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Locomotion
+    className: UxrTeleportSpawnCollider
+  - hash:
+      serializedVersion: 2
+      Hash: f3ddb60bdd5599e8b9d36e1b2160e1c3
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Mechanics.Weapons
+    className: UxrExplodeHierarchy
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerUpMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 91d258529db2b5060a913f2afcea1a21
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner
+    className: PlaymodeTestsController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnJointBreakMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 0a3fa1a367fddc65eb32515029503334
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerMessageBox
+  - hash:
+      serializedVersion: 2
+      Hash: e2f55712b893bcacc3999a72f643d484
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Rendering.FX
+    className: UxrMagnifyingGlassUrp
+  - hash:
+      serializedVersion: 2
+      Hash: 95ab34eaee0edbfbaf594fadfc753be4
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.UI.UnityInputModule
+    className: UxrNonDrawingGraphic
+  - hash:
+      serializedVersion: 2
+      Hash: b4ccd3465d99901966f9ba4018840b70
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Devices.Integrations.Meta
+    className: UxrMetaTouchQuest2Tracking
+  - hash:
+      serializedVersion: 2
+      Hash: c1d728126ff1918728036c59106d32b2
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: a99b0c44be6d6ef865e60684c68dd2e4
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Animation.Transforms
+    className: UxrLookAtLocalAvatar
+  - hash:
+      serializedVersion: 2
+      Hash: 6c4dfd5cd2965ceac5e48bd6b8af2a88
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Haptics.Helpers
+    className: UxrFixedHapticFeedback
+  - hash:
+      serializedVersion: 2
+      Hash: ad00aef5869cbb8fc93e54b46c6a0a27
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: SplitToning
+  - hash:
+      serializedVersion: 2
+      Hash: 77d2f5135de010833b50147b9027ed7f
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Avatar.Controllers
+    className: UxrHandPoseVolume
+  - hash:
+      serializedVersion: 2
+      Hash: 28c3dcfbe87467619b5f03b6cfd13830
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Animation.GameObjects
+    className: UxrDelayedDestroy
+  - hash:
+      serializedVersion: 2
+      Hash: 51b05e403ce1da1805851f42af02f4bb
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 86e3153ed2d404700e7e29c09cf75f49
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Animation.UI
+    className: UxrColorTween
+  - hash:
+      serializedVersion: 2
+      Hash: 58cb4e2e0cfe376003f3758d58f93e4a
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering
+    className: LensFlareComponentSRP
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Manipulation
+    className: UxrGrabManager
+  - hash:
+      serializedVersion: 2
+      Hash: 79039b8f617b44df7b4534c5679dfd3d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: UltimateXR.Examples.FullScene.Lab
+    className: Laser
+  - hash:
+      serializedVersion: 2
+      Hash: cc4274b586df3c02688bac01b88bd16c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: fe64a45214940b510a0ec79c96d43498
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: f336e086360abe49a3323e5f1583c35a
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Manipulation
+    className: UxrGrabbableObjectPreviewMesh
+  - hash:
+      serializedVersion: 2
+      Hash: df9a387bd74982e789a6dc7cd901661f
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Devices.DebugPanels
+    className: UxrDebugInput1dUI
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestRunner.Utils
+    className: TestRunCallbackListener
+  - hash:
+      serializedVersion: 2
+      Hash: 16701e666be6e063dbe6f7733854e660
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: UltimateXR.Examples.FullScene.Weapons
+    className: MagAmmoIndicator
+  - hash:
+      serializedVersion: 2
+      Hash: 5c8cc96380870f6d22a36699fbd1d280
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Audio
+    className: UxrAudioBoxVolume
+  - hash:
+      serializedVersion: 2
+      Hash: f40fedccd4adbc76605bea6d67537e4b
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnInputFieldEndEditMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: d1ea2a912d2622d38d5a636c75c64aa6
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Animation.IK
+    className: UxrCcdIKSolver
+  - hash:
+      serializedVersion: 2
+      Hash: 822b017f69be67cea86453aabd841187
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ShadowCaster2D
+  - hash:
+      serializedVersion: 2
+      Hash: 3b94ff5bd66bbc24c471a3d7f056929e
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Manipulation
+    className: UxrGrabber
+  - hash:
+      serializedVersion: 2
+      Hash: 1089c57aed1bd7d163be11516bd5d782
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Rendering.FX
+    className: UxrPlanarReflectionUrp
+  - hash:
+      serializedVersion: 2
+      Hash: 0fd6822f6177297bd0eb4d83cc7a9030
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: b4ccd3465d99901966f9ba4018840b70
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Devices.Integrations.Oculus
+    className: UxrOculusTouchRiftTrackingSteamVR
+  - hash:
+      serializedVersion: 2
+      Hash: 45763041aa24f80b7bd0724e2341a367
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Devices.Integrations.Oculus
+    className: UxrOculusTouchRiftSQuestInput
+  - hash:
+      serializedVersion: 2
+      Hash: 118bf1163329f57c9c5128653384b02c
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Core
+    className: UxrManager
+  - hash:
+      serializedVersion: 2
+      Hash: 185b457f2d52afc3ef98d0c37d841af5
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: UniversalAdditionalCameraData
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnScrollMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: VariablesAsset
+  - hash:
+      serializedVersion: 2
+      Hash: aadb33b0748ee25c95d6cf646ae5826b
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ScreenSpaceShadows
+  - hash:
+      serializedVersion: 2
+      Hash: 1765d5836eaeda05fc5c758ea45197c5
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Animation.GameObjects
+    className: UxrObjectFade
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayerQuitHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnControllerColliderHitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 9fd85a965937ce2cc05df1fd49557a3f
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Audio
+    className: UxrAudioSourceStartPos
+  - hash:
+      serializedVersion: 2
+      Hash: 1c1f2cabbb4d1a77fe976629abcd9a4d
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: UniversalRenderPipelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Locomotion
+    className: UxrIgnoreTeleportDestination
+  - hash:
+      serializedVersion: 2
+      Hash: a723a948335d52814d43ec01229ca0b3
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ForwardRendererData
+  - hash:
+      serializedVersion: 2
+      Hash: d7fac91f15aa1d242a87f0afa8f6e6ec
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: UltimateXR.Examples.FullScene.Lab
+    className: SpringOnRelease
+  - hash:
+      serializedVersion: 2
+      Hash: 5e1eefcd5106de6c2e85908a3b2d3f04
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerToggleHistory
+  - hash:
+      serializedVersion: 2
+      Hash: 79b54a5303bd41764acda985a753319c
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.UI.UnityInputModule.Utils
+    className: UxrButton3D
+  - hash:
+      serializedVersion: 2
+      Hash: fec75d19499f1d8eaf25f6ab4f16b208
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: UltimateXR.Examples.FullScene.Lab
+    className: GeneratorDoor
+  - hash:
+      serializedVersion: 2
+      Hash: c799e950d26948cd2aa976de88433191
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.UI.UnityInputModule.Utils
+    className: UxrButton3DRotate
+  - hash:
+      serializedVersion: 2
+      Hash: aba7b2852ef61d175dd9602e7723d5e5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: 2a60dd718c51f42868e1bac1af85a382
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Locomotion
+    className: UxrTeleportTarget
+  - hash:
+      serializedVersion: 2
+      Hash: 2bb1b524fb2ce91292d415c49ccb8da1
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Devices.Integrations.Microsoft
+    className: UxrWindowsMixedRealityInput
+  - hash:
+      serializedVersion: 2
+      Hash: e7f96f1aa688551eb77d89b9baab43cf
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Avatar
+    className: UxrHandIntegration
+  - hash:
+      serializedVersion: 2
+      Hash: 9ac327467393cb6c8045a2fd90ff67e2
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerPersistentCanvas
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionStay2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 3165968ba45c74472d279ba04455fccb
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: 20301aa4e74ec9683b7164d5bb4d0ef6
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ShadowsMidtonesHighlights
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: VariablesSaver
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 0fb27be807aa299702f28ad0bcad1f46
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: ef5c43f921427d03730f6ea4c848f07d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: b4ccd3465d99901966f9ba4018840b70
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Devices.Integrations.HTC
+    className: UxrHtcViveCosmosTracking
+  - hash:
+      serializedVersion: 2
+      Hash: f3831b2e40ea8d8ffad3bc680b5d6d4d
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Devices.Integrations.HTC
+    className: UxrHtcViveCosmosInput
+  - hash:
+      serializedVersion: 2
+      Hash: f8d8a097859f8f7e417dd5c81fef746f
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ChromaticAberration
+  - hash:
+      serializedVersion: 2
+      Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: DictionaryAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 7bc1b7964c59f6a9f8342fdb4aaf547f
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: LensDistortion
+  - hash:
+      serializedVersion: 2
+      Hash: 852ac4e9ceea699f7c1d76939cdc98da
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: Renderer2DData
+  - hash:
+      serializedVersion: 2
+      Hash: 6980e81ddc615a861309d2d659cc3760
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: eaed50c9f3e1e24d3feb4c8b2f00278d
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerEnumHistory
+  - hash:
+      serializedVersion: 2
+      Hash: fd68d84f33fad85aac38f2739c0ee270
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 37fb5fcb2de6ffef3377f23414376ff1
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Manipulation.Helpers
+    className: UxrAlignOnRelease
+  - hash:
+      serializedVersion: 2
+      Hash: b4ccd3465d99901966f9ba4018840b70
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Devices.Integrations.Microsoft
+    className: UxrWindowsMixedRealityTracking
+  - hash:
+      serializedVersion: 2
+      Hash: cf2f04f7631a1b95a6b4e8cd0ed077fb
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: Vignette
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.UI
+    className: UxrFingerTip
+  - hash:
+      serializedVersion: 2
+      Hash: b4ccd3465d99901966f9ba4018840b70
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Devices.Integrations.Valve
+    className: UxrValveIndexTracking
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: SceneVariables
+  - hash:
+      serializedVersion: 2
+      Hash: 55d33ba4b946f2edb2ea02979cf54e79
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Mechanics.Weapons
+    className: UxrProjectileSource
+  - hash:
+      serializedVersion: 2
+      Hash: 9302f099a0c472ff2540503b502f71c8
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Animation.UI
+    className: UxrScaleTween
+  - hash:
+      serializedVersion: 2
+      Hash: 918c8d39874a6814cf1db6299c2c27f6
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.UI.UnityInputModule.Utils
+    className: UxrHoverTimerClick
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnEndDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 24c74cc0d527a06113f2b967042769f0
+    assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
+    namespaceName: UnityEditor.XR.LegacyInputHelpers
+    className: CameraOffset
+  - hash:
+      serializedVersion: 2
+      Hash: 5ab533713adae59372fb3e10a585c186
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 77aaaaa51f7a8d8ff333a879741e47d2
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Mechanics.Weapons
+    className: UxrWeaponManager
+  - hash:
+      serializedVersion: 2
+      Hash: 55a9c0e4ce8d04e0c3369f1f4c85e544
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: Tonemapping
+  - hash:
+      serializedVersion: 2
+      Hash: 04885fa4c2e3f34bb92b18186472b2c4
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: Light2D
+  - hash:
+      serializedVersion: 2
+      Hash: 77177eae41eb069b1ff859fca1f6c1d0
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.UI.Helpers.Keyboard
+    className: UxrKeyboardKeyUI
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: GlobalMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 21a9c6dbf300fc1f6dc15ca7e2c39a37
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: e54be2b171ce91bb4e17f5fb4421abc5
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.UI
+    className: UxrCameraPointer
+  - hash:
+      serializedVersion: 2
+      Hash: 7dbf450932234158be58ca2027563dcb
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerVector3
+  - hash:
+      serializedVersion: 2
+      Hash: 300fd99066f8c288e85f5e81ce65fe34
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 14fbe1b030b106b526b39711c4e1f4bc
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ChannelMixer
+  - hash:
+      serializedVersion: 2
+      Hash: 1eab9895701753969341d43a07ca3c76
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Devices.DebugPanels
+    className: UxrDebugControllerPanel
+  - hash:
+      serializedVersion: 2
+      Hash: df9a387bd74982e789a6dc7cd901661f
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Devices.DebugPanels
+    className: UxrDebugInput2dUI
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnBecameInvisibleMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 8d35f16c5022311c6f4d9432be73bfcf
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerFloatField
+  - hash:
+      serializedVersion: 2
+      Hash: 1cc4fa99943f5e355a3c0becab5e6a43
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Animation.UI
+    className: UxrRotationTween
+  - hash:
+      serializedVersion: 2
+      Hash: 45763041aa24f80b7bd0724e2341a367
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Devices.Integrations.Meta
+    className: UxrMetaTouchQuest2Input
+  - hash:
+      serializedVersion: 2
+      Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
+    assemblyName: Unity.VisualScripting.State.dll
+    namespaceName: Unity.VisualScripting
+    className: StateGraphAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 6b3057497eb6f0e52612476af702bf8c
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: UIFoldout
+  - hash:
+      serializedVersion: 2
+      Hash: a1aa98c78061c6f03a8c124cda576e67
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 90322c83444bb6cddb6ec1511b061c7d
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Avatar
+    className: UxrAvatar
+  - hash:
+      serializedVersion: 2
+      Hash: cf9f5cf2c3145a37ac07f00e50e460f9
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 2638f62ffb1e1736f7d3e347ab027df8
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Animation.UI
+    className: UxrTextContentTween
+  - hash:
+      serializedVersion: 2
+      Hash: 58e68364412c67eae2bdb4954be2dcc2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Readme
+  - hash:
+      serializedVersion: 2
+      Hash: b4ccd3465d99901966f9ba4018840b70
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Devices.Integrations.Oculus
+    className: UxrOculusTouchRiftSQuestTracking
+  - hash:
+      serializedVersion: 2
+      Hash: 1f0602e7bad1e0a9cba31ce292eee8bb
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerHBox
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseUpAsButtonMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 8d35f16c5022311c6f4d9432be73bfcf
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerIndirectFloatField
+  - hash:
+      serializedVersion: 2
+      Hash: 748dd2a2a28da4e618912da5ac45684b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: f7858108331b563fb41b80b729297acd
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering
+    className: DebugUpdater
+  - hash:
+      serializedVersion: 2
+      Hash: 89229a620f85ef21de336ab85a13d351
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerCanvas
+  - hash:
+      serializedVersion: 2
+      Hash: 4fd8bf02e3089425d3502e26c44ba31a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: f79e983672d079ff24eee15484fb74b8
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerColor
+  - hash:
+      serializedVersion: 2
+      Hash: 361f3edf1c87ede3c7d7eacefea855e0
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: FilmGrain
+  - hash:
+      serializedVersion: 2
+      Hash: 16908100518feb67bb0d7a50cf1f25f8
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Locomotion
+    className: UxrTeleportLocomotion
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: b618ec75450476f885bbd9a1ccef9649
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Mechanics.Weapons
+    className: UxrShotgunPump
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.XR.Oculus.dll
+    namespaceName: Unity.XR.Oculus
+    className: OculusLoader
+  - hash:
+      serializedVersion: 2
+      Hash: d251bf88db6c95a6b1aa0b69298da9ef
+    assemblyName: UnityEngine.SpatialTracking.dll
+    namespaceName: UnityEngine.SpatialTracking
+    className: TrackedPoseDriver
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: aa8d59c1cf069bdbc5c5379f8ef09ef4
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Mechanics.Weapons
+    className: UxrActor
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 87ff43d2baf3385cba327d8f803a4ebb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerDownMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnScrollRectValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: RemoteTestResultSender
+  - hash:
+      serializedVersion: 2
+      Hash: 134322c9293c1896357cce271b819ce4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.UI.UnityInputModule
+    className: UxrIgnoreCanvas
+  - hash:
+      serializedVersion: 2
+      Hash: 1af5188652852ab7632d4ded5befc008
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Avatar.Controllers
+    className: UxrFingerPointingVolume
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMoveMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: d38b46fddb6c65da11a154f3c48265ae
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Locomotion
+    className: UxrTeleportTargetMaterialID
+  - hash:
+      serializedVersion: 2
+      Hash: 1d267e49942d5b994138135e80ab51c3
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Animation.UI
+    className: UxrImageFillTween
+  - hash:
+      serializedVersion: 2
+      Hash: ad0a56d5c03a7710cc914efb4848e982
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Devices.DebugPanels
+    className: UxrDebugInputButtonUI
+  - hash:
+      serializedVersion: 2
+      Hash: ce46c87ede95ddd711d94d07c476acbb
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: PostProcessData
+  - hash:
+      serializedVersion: 2
+      Hash: 932db2203f9c5c32f9d4c2c76313110c
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Manipulation.Helpers
+    className: UxrReturnGrabbableObject
+  - hash:
+      serializedVersion: 2
+      Hash: 040dd48e3a027d5424519a5fa2009df4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: 1089369f2323fa132ca8bddecce71b77
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: UltimateXR.Examples.FullScene
+    className: GlobalLogic
+  - hash:
+      serializedVersion: 2
+      Hash: fe1080a47424fcd6eb9d2fc078dce299
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: PaniniProjection
+  - hash:
+      serializedVersion: 2
+      Hash: 893dbdbfe611d62e230a686ea89f1efd
+    assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
+    namespaceName: UnityEngine.XR.LegacyInputHelpers
+    className: SwingArmModel
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseUpMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: b4ccd3465d99901966f9ba4018840b70
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Devices.Integrations.Oculus
+    className: UxrMetaTouchQuest2TrackingSteamVR
+  - hash:
+      serializedVersion: 2
+      Hash: 45763041aa24f80b7bd0724e2341a367
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Devices.Integrations
+    className: UxrGamepadInput
+  - hash:
+      serializedVersion: 2
+      Hash: 36025d42bf23fda83a55bf1429201821
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerFoldout
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.CameraUtils
+    className: UxrCameraFade
+  - hash:
+      serializedVersion: 2
+      Hash: 58e8e2ffa97b5a1e4b5b909c9da782e4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: UltimateXR.Examples.FullScene.Doors
+    className: HandScanner
+  - hash:
+      serializedVersion: 2
+      Hash: b4ccd3465d99901966f9ba4018840b70
+    assemblyName: UltimateXR.dll
+    namespaceName: UltimateXR.Devices.Integrations.Oculus
+    className: UxrOculusTouchRiftTracking
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnSliderValueChangedMessageListener
+  platform: 13
+  scenePathNames:
+  - Assets/Scenes/Hub_Room.unity
+  playerPath: /Users/zfang23/Documents/GitHub/ProjectMagical_1/ProjectMagical/test.apk
