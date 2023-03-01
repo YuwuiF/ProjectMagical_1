@@ -5,9 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Hub_Room.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/Hub_City.unity
+    guid: d7f18cb5a4dc94e7b8b881f51d9904aa
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: a75ad01a1dc934d33bbe64201791813c,
       type: 2}

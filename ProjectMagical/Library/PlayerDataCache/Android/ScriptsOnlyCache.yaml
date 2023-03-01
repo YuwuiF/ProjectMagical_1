@@ -78,21 +78,16 @@ ScriptsOnlyBuild:
     - UnityEngine.Rendering.UI.DebugUIHandlerVector3
     - UnityEngine.Rendering.UI.DebugUIHandlerVector4
     - UnityEngine.Rendering.UI.UIFoldout
-    - UnityEngine.Rendering.Volume
-    - UnityEngine.Rendering.VolumeProfile
     Unity.RenderPipelines.Universal.Editor.dll:
     - UnityEditor.Rendering.Universal.UniversalProjectSettings
     Unity.RenderPipelines.Universal.Runtime.dll:
-    - UnityEngine.Rendering.Universal.Bloom
     - UnityEngine.Rendering.Universal.PostProcessData
     - UnityEngine.Rendering.Universal.ScreenSpaceAmbientOcclusion
-    - UnityEngine.Rendering.Universal.Tonemapping
     - UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
     - UnityEngine.Rendering.Universal.UniversalAdditionalLightData
     - UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset
     - UnityEngine.Rendering.Universal.UniversalRenderPipelineGlobalSettings
     - UnityEngine.Rendering.Universal.UniversalRendererData
-    - UnityEngine.Rendering.Universal.Vignette
     - UnityEngine.Rendering.Universal.XRSystemData
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
@@ -151,21 +146,13 @@ ScriptsOnlyBuild:
     - UltimateXR.Manipulation.HandPoses.UxrHandDescriptor
     - UltimateXR.Mechanics.CyborgAvatar.WristConnectionRays/RayProperties
     Unity.RenderPipelines.Core.Runtime:
-    - UnityEngine.Rendering.BoolParameter
-    - UnityEngine.Rendering.ClampedFloatParameter
-    - UnityEngine.Rendering.ClampedIntParameter
-    - UnityEngine.Rendering.ColorParameter
-    - UnityEngine.Rendering.MinFloatParameter
-    - UnityEngine.Rendering.TextureParameter
     - UnityEngine.Rendering.UI.DebugUIPrefabBundle
-    - UnityEngine.Rendering.Vector2Parameter
     Unity.RenderPipelines.Universal.Runtime:
     - UnityEngine.Rendering.Universal.PostProcessData/ShaderResources
     - UnityEngine.Rendering.Universal.PostProcessData/TextureResources
     - UnityEngine.Rendering.Universal.ScreenSpaceAmbientOcclusionSettings
     - UnityEngine.Rendering.Universal.ScriptableRendererData/DebugShaderResources
     - UnityEngine.Rendering.Universal.StencilStateData
-    - UnityEngine.Rendering.Universal.TonemappingModeParameter
     - UnityEngine.Rendering.Universal.UniversalRendererData/ShaderResources
     - UnityEngine.Rendering.Universal.XRSystemData/ShaderResources
     UnityEngine.CoreModule:
@@ -221,7 +208,7 @@ ScriptsOnlyBuild:
     fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerPanel
     methodName: ResetDebugManager
   sceneClasses:
-    Assets/Scenes/Hub_Room.unity:
+    Assets/Scenes/Hub_City.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -297,13 +284,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3904}
     - Class: 114
-      Script: {instanceID: 3996}
-    - Class: 114
       Script: {instanceID: 4118}
     - Class: 114
       Script: {instanceID: 4328}
-    - Class: 114
-      Script: {instanceID: 4630}
     - Class: 114
       Script: {instanceID: 4742}
     - Class: 114
@@ -350,8 +333,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 6874}
     - Class: 114
       Script: {instanceID: 6892}
-    - Class: 114
-      Script: {instanceID: 7008}
     - Class: 114
       Script: {instanceID: 7516}
     - Class: 114
@@ -403,13 +384,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9762}
     - Class: 114
-      Script: {instanceID: 9784}
-    - Class: 114
       Script: {instanceID: 9826}
     - Class: 114
       Script: {instanceID: 9864}
-    - Class: 114
-      Script: {instanceID: 10180}
     - Class: 114
       Script: {instanceID: 10262}
     - Class: 114
@@ -453,8 +430,6 @@ ScriptsOnlyBuild:
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
-      Script: {instanceID: 0}
-    - Class: 135
       Script: {instanceID: 0}
     - Class: 137
       Script: {instanceID: 0}
@@ -2697,5 +2672,5 @@ ScriptsOnlyBuild:
     className: UnityOnSliderValueChangedMessageListener
   platform: 13
   scenePathNames:
-  - Assets/Scenes/Hub_Room.unity
-  playerPath: /Users/zfang23/Documents/GitHub/ProjectMagical_1/ProjectMagical/test.apk
+  - Assets/Scenes/Hub_City.unity
+  playerPath: /Users/zfang23/Documents/GitHub/ProjectMagical_1/ProjectMagical/test2.apk
