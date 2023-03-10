@@ -22,7 +22,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-50015
+60602
 Successfully changed project path to: /Users/zfang23/Documents/GitHub/ProjectMagical_1/ProjectMagical
 /Users/zfang23/Documents/GitHub/ProjectMagical_1/ProjectMagical
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,8 +54,8 @@ Successfully changed project path to: /Users/zfang23/Documents/GitHub/ProjectMag
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 153.41 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 7.15 ms.
+Refreshing native plugins compatible for Editor in 157.75 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 6.79 ms.
 Initialize engine version: 2021.3.3f1 (af2e63e8f9bd)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.3f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/zfang23/Documents/GitHub/ProjectMagical_1/ProjectMagical/Assets
@@ -69,44 +69,44 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.3f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.3f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.3f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56619
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56331
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.3f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.3f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.3f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.002418 seconds.
+Registered in 0.003475 seconds.
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 104.07 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 1.28 ms.
+Refreshing native plugins compatible for Editor in 112.65 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 1.25 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.580 seconds
+- Completed reload, in  0.606 seconds
 Domain Reload Profiling:
-	ReloadAssembly (581ms)
-		BeginReloadAssembly (135ms)
+	ReloadAssembly (606ms)
+		BeginReloadAssembly (138ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (375ms)
+		EndReloadAssembly (394ms)
 			LoadAssemblies (142ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (82ms)
+			SetupTypeCache (84ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (18ms)
-			SetupLoadedEditorAssemblies (241ms)
+			RebuildScriptCaches (17ms)
+			SetupLoadedEditorAssemblies (260ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (61ms)
+				InitializePlatformSupportModulesInManaged (76ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (105ms)
+				RefreshPlugins (114ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (48ms)
+				ProcessInitializeOnLoadAttributes (44ms)
 				ProcessInitializeOnLoadMethodAttributes (26ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -114,40 +114,40 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.030269 seconds.
+Registered in 0.034054 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/zfang23/Documents/GitHub/ProjectMagical_1/ProjectMagical/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/zfang23/Documents/GitHub/ProjectMagical_1/ProjectMagical/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 105.80 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 1.54 ms.
+Refreshing native plugins compatible for Editor in 115.73 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 1.46 ms.
 Package Manager log level set to [2]
 Mono: successfully reloaded assembly
-- Completed reload, in  1.251 seconds
+- Completed reload, in  1.805 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1251ms)
-		BeginReloadAssembly (266ms)
+	ReloadAssembly (1806ms)
+		BeginReloadAssembly (276ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (122ms)
-		EndReloadAssembly (904ms)
-			LoadAssemblies (237ms)
-			RebuildTransferFunctionScriptingTraits (3ms)
-			SetupTypeCache (221ms)
+			CreateAndSetChildDomain (123ms)
+		EndReloadAssembly (1450ms)
+			LoadAssemblies (272ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (220ms)
 			ReleaseScriptCaches (5ms)
-			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (457ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (967ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (21ms)
+				InitializePlatformSupportModulesInManaged (39ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (107ms)
-				BeforeProcessingInitializeOnLoad (76ms)
-				ProcessInitializeOnLoadAttributes (197ms)
-				ProcessInitializeOnLoadMethodAttributes (54ms)
+				RefreshPlugins (117ms)
+				BeforeProcessingInitializeOnLoad (101ms)
+				ProcessInitializeOnLoadAttributes (678ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -156,13 +156,13 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.3.3f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.14 seconds
-Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.56 ms.
-Unloading 5635 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (0.7 MB). Loaded Objects now: 6094.
-Memory consumption went from 348.7 MB to 347.9 MB.
-Total: 3.800875 ms (FindLiveObjects: 0.547709 ms CreateObjectMapping: 0.150666 ms MarkObjects: 2.837625 ms  DeleteObjects: 0.264041 ms)
+Launched and connected shader compiler UnityShaderCompiler after 0.26 seconds
+Refreshing native plugins compatible for Editor in 0.74 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.59 ms.
+Unloading 6548 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 206 unused Assets / (1.9 MB). Loaded Objects now: 6979.
+Memory consumption went from 406.7 MB to 404.8 MB.
+Total: 3.860500 ms (FindLiveObjects: 0.407667 ms CreateObjectMapping: 0.083125 ms MarkObjects: 2.897541 ms  DeleteObjects: 0.471458 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -176,7 +176,385 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 233746.661806 seconds.
-  path: Assets/Scenes/Hub_City.unity
-  artifactKey: Guid(d7f18cb5a4dc94e7b8b881f51d9904aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Hub_City.unity using Guid(d7f18cb5a4dc94e7b8b881f51d9904aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f17f2a28d9d79d0bb85096ee84858d3') in 0.013709 seconds 
+  Time since last request: 56211.484153 seconds.
+  path: Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Environment/Modules/ShootingRangeModules/WallRangePipesGeo.fbx
+  artifactKey: Guid(81b7643df3c4553409eeb7b9d0bfd42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Environment/Modules/ShootingRangeModules/WallRangePipesGeo.fbx using Guid(81b7643df3c4553409eeb7b9d0bfd42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd3896e2b59072fb59aff1838c698e3e') in 1.317904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Interactive/Lab/CeilingArm/LabCeilingArmGeo.fbx
+  artifactKey: Guid(4d3d384df8b1f7d47a23a640101d093e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Interactive/Lab/CeilingArm/LabCeilingArmGeo.fbx using Guid(4d3d384df8b1f7d47a23a640101d093e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '047c36915aa52c01d91cc45775570218') in 0.265423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Environment/Modules/ShootingRangeModules/WallRangeVentGeo.fbx
+  artifactKey: Guid(1a6735ae54d3c3444b4260b534a78a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Environment/Modules/ShootingRangeModules/WallRangeVentGeo.fbx using Guid(1a6735ae54d3c3444b4260b534a78a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99b10660b19189b592e9bd2b226b3b07') in 0.074553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Environment/Modules/ShootingRangeModules/WallRangeCeilingLGeo.fbx
+  artifactKey: Guid(26c49237acc035747b8713a51602ed82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Environment/Modules/ShootingRangeModules/WallRangeCeilingLGeo.fbx using Guid(26c49237acc035747b8713a51602ed82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f1212e6d7ab5de6e36d61e3bb16f7db') in 0.486596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.079576 seconds.
+  path: Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Environment/Props/TableRange/TableRangeGlassGeo.fbx
+  artifactKey: Guid(d770b496a0793d44c93075dc21d4af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Environment/Props/TableRange/TableRangeGlassGeo.fbx using Guid(d770b496a0793d44c93075dc21d4af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5c7c2d75536363e82bcc9c22d50f7a8') in 0.375725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Interactive/Weapons/Shotgun/ShotgunGeo.FBX
+  artifactKey: Guid(6a37a53958fc2ec4194357ab19ff6fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Interactive/Weapons/Shotgun/ShotgunGeo.FBX using Guid(6a37a53958fc2ec4194357ab19ff6fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc12a80347cec49b93605ccbb9d80d21') in 0.321417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Interactive/HandScanner/HandScanGeo.fbx
+  artifactKey: Guid(195e875756740744bb355ae9b8c0399d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Interactive/HandScanner/HandScanGeo.fbx using Guid(195e875756740744bb355ae9b8c0399d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77f33094861a194b125a8b7f76e754fe') in 0.162363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Environment/Modules/PanelsRooms/PanelTopPlanarColumnGeo.fbx
+  artifactKey: Guid(961de7095e80a084da5c00284e2786b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Environment/Modules/PanelsRooms/PanelTopPlanarColumnGeo.fbx using Guid(961de7095e80a084da5c00284e2786b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f444b5c80fd16b98ca5812369f4e64b9') in 0.054009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Environment/Modules/Backgrounds/SpawnRoomBackground.fbx
+  artifactKey: Guid(4c9632cade7f1ea4cb8738e330e81c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Environment/Modules/Backgrounds/SpawnRoomBackground.fbx using Guid(4c9632cade7f1ea4cb8738e330e81c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ae47a2f93d5d1be97cf9bb898d0be19') in 0.037283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Environment/Modules/ShootingRangeModules/PanelFrameRGeo.fbx
+  artifactKey: Guid(d0840e3411ef62740879000bddad3cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Environment/Modules/ShootingRangeModules/PanelFrameRGeo.fbx using Guid(d0840e3411ef62740879000bddad3cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa49534cc1bd9ae1e575e72acd34863f') in 0.167453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Interactive/Lab/Lamp/LabLightGeo.fbx
+  artifactKey: Guid(09f54761dbb757740bfc8f9accc46117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Interactive/Lab/Lamp/LabLightGeo.fbx using Guid(09f54761dbb757740bfc8f9accc46117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb26ce69cb8f5fd30acc52a180c84262') in 0.415989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Environment/Modules/ShootingRangeModules/PanelFrameLGeo.fbx
+  artifactKey: Guid(2c1169bd88eb87e46b698e71c45a65da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Environment/Modules/ShootingRangeModules/PanelFrameLGeo.fbx using Guid(2c1169bd88eb87e46b698e71c45a65da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43afb8fa132e14571d4a3821f42cfb44') in 0.076857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Interactive/Weapons/Mags/MagGunGeo.FBX
+  artifactKey: Guid(3800288a13557524bb6db941e22a6fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Interactive/Weapons/Mags/MagGunGeo.FBX using Guid(3800288a13557524bb6db941e22a6fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd01a16cef0b219764b3caffc7889da3b') in 0.102416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Environment/Modules/Doors/DoorGeoRPanel.fbx
+  artifactKey: Guid(d8b00ac6138998745b074db227559b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Environment/Modules/Doors/DoorGeoRPanel.fbx using Guid(d8b00ac6138998745b074db227559b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecebac7d9742c01a6daa457c39b313e6') in 0.080984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Environment/Modules/Doors/DoorGeoFrame.fbx
+  artifactKey: Guid(ee2aa560143c9a14e9c609ee1c035b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Environment/Modules/Doors/DoorGeoFrame.fbx using Guid(ee2aa560143c9a14e9c609ee1c035b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a06e7db799da98031494b18bccb0738') in 0.039019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Environment/Modules/FloorBaseRooms/FloorBaseRoomCentralGeo.fbx
+  artifactKey: Guid(137f30e72ef598d4e99da0764ec18d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Environment/Modules/FloorBaseRooms/FloorBaseRoomCentralGeo.fbx using Guid(137f30e72ef598d4e99da0764ec18d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab4a4701da87d81bf1729bb635d0d983') in 0.126150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Environment/Props/Display/DisplayGeo70.fbx
+  artifactKey: Guid(840267e91beed224ea364d4e11ee00db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Environment/Props/Display/DisplayGeo70.fbx using Guid(840267e91beed224ea364d4e11ee00db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6d5ca9c62850db4b289ffcb00f5fb0a') in 0.101879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Interactive/Lab/Display/LabDisplayGeo.fbx
+  artifactKey: Guid(893437c3e15716443a99e30c8551e4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Interactive/Lab/Display/LabDisplayGeo.fbx using Guid(893437c3e15716443a99e30c8551e4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0071829b4f369c6eda1a42ac07ff2259') in 0.151109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Environment/Modules/Doors/DoorGeoLWindows.fbx
+  artifactKey: Guid(1769b7b64842bb340819957d22f49ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Environment/Modules/Doors/DoorGeoLWindows.fbx using Guid(1769b7b64842bb340819957d22f49ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a49e3c8f3274202c00bc6881442a00f3') in 0.125510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Environment/Props/TableRange/DecalMagChargerGeo.fbx
+  artifactKey: Guid(11aa03491e49b0a4895472d7dc350dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Environment/Props/TableRange/DecalMagChargerGeo.fbx using Guid(11aa03491e49b0a4895472d7dc350dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b31332670f7f86bb4ffdeaebb4b7fb3') in 0.044152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Environment/Modules/Doors/DoorGeoLPanel.fbx
+  artifactKey: Guid(4fe6757b424f4314f992285a8eb49914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Environment/Modules/Doors/DoorGeoLPanel.fbx using Guid(4fe6757b424f4314f992285a8eb49914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5e7b6436d4bdb9f16be26a8d99da924') in 0.052238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Interactive/Lab/Battery/LabBatteryColliderGeo.fbx
+  artifactKey: Guid(6ab54b919792a5947804281607de4025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Interactive/Lab/Battery/LabBatteryColliderGeo.fbx using Guid(6ab54b919792a5947804281607de4025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e15c324de0d9d50c01d3877897c50df') in 0.099860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Environment/Modules/ShootingRangeModules/FloorRangeMetalGeo.fbx
+  artifactKey: Guid(072c3379d9cb94941887c6b5f7e338a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Environment/Modules/ShootingRangeModules/FloorRangeMetalGeo.fbx using Guid(072c3379d9cb94941887c6b5f7e338a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e1c10ad88c710d45dbfdf0bbfa14dd0') in 0.033623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Environment/Modules/FloorBaseRooms/FloorBaseRoomGalleryGeo.fbx
+  artifactKey: Guid(cd952888fe6c5eb4ab7c0487d43b61f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Environment/Modules/FloorBaseRooms/FloorBaseRoomGalleryGeo.fbx using Guid(cd952888fe6c5eb4ab7c0487d43b61f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee4a4b01ecccc52152ed435354d0a67e') in 0.065713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Environment/Modules/FloorModules/FloorBorderDoorGeo.fbx
+  artifactKey: Guid(29b126ae50c073c43a5ce8ed09bd58f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Environment/Modules/FloorModules/FloorBorderDoorGeo.fbx using Guid(29b126ae50c073c43a5ce8ed09bd58f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a56dd53a586e88c53fd69e61a869127e') in 0.071733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Interactive/Weapons/Gun/FX/GunProjectileGeo.FBX
+  artifactKey: Guid(ccb691c4549e63944be833290652ae14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Interactive/Weapons/Gun/FX/GunProjectileGeo.FBX using Guid(ccb691c4549e63944be833290652ae14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '795d5365aa440557e68783903296c01d') in 0.040940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Interactive/Lab/Charger/LabChargerGeo.fbx
+  artifactKey: Guid(0fa37dbbbeb1a45449254396339f937d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Interactive/Lab/Charger/LabChargerGeo.fbx using Guid(0fa37dbbbeb1a45449254396339f937d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'affccfe4fbbf903f0dc151fd4693cd56') in 0.088777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Environment/Modules/PanelsRooms/PanelBotHalfGeo.fbx
+  artifactKey: Guid(ea2cfcced8a32f04e8e80151f96e18c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Environment/Modules/PanelsRooms/PanelBotHalfGeo.fbx using Guid(ea2cfcced8a32f04e8e80151f96e18c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad52ba87a1f523b58f20c6abf72e4bdf') in 0.041857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Environment/Modules/PanelsRooms/PanelBotColumnGeo.fbx
+  artifactKey: Guid(cc7a41850d8b2034787ec8953e8a3845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Environment/Modules/PanelsRooms/PanelBotColumnGeo.fbx using Guid(cc7a41850d8b2034787ec8953e8a3845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87ca0e5d0a8677fbd1d3843e14096544') in 0.034578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Environment/Modules/PanelsRooms/PanelBotCornerGeo.fbx
+  artifactKey: Guid(fde7e9ccadf80d34eaa30d4c1df310c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Environment/Modules/PanelsRooms/PanelBotCornerGeo.fbx using Guid(fde7e9ccadf80d34eaa30d4c1df310c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc378309c4354dda8397c063847b10a1') in 0.052580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Environment/Modules/Doors/BaseModuleDoorsCoverGeo.fbx
+  artifactKey: Guid(cebc451401d0af94b9a8968b013acbbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Environment/Modules/Doors/BaseModuleDoorsCoverGeo.fbx using Guid(cebc451401d0af94b9a8968b013acbbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b316b9159ed5dcf19469f22666966a9') in 0.083067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Environment/Modules/Backgrounds/LaboratoryBackground.fbx
+  artifactKey: Guid(5a9041c5ce659d2458ea054a53f10d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Environment/Modules/Backgrounds/LaboratoryBackground.fbx using Guid(5a9041c5ce659d2458ea054a53f10d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01668d399c510defdc802c57f1556ff6') in 0.038021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Environment/Modules/FloorModules/FloorModuleSpecialGeo.fbx
+  artifactKey: Guid(d2edcdcd487c7f0468fe625a4ecdf49d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Environment/Modules/FloorModules/FloorModuleSpecialGeo.fbx using Guid(d2edcdcd487c7f0468fe625a4ecdf49d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '469839ca13321a70207df272e8911866') in 0.044146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Environment/Decals/Signage/DecalPositional/DecalPositionalGeo.fbx
+  artifactKey: Guid(5a1660775e3c41e4595e4e223b10e0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Environment/Decals/Signage/DecalPositional/DecalPositionalGeo.fbx using Guid(5a1660775e3c41e4595e4e223b10e0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feaacd162a78a96804ebe53309655dce') in 0.720572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Environment/Modules/ShootingRangeModules/GlowCenter2Geo.fbx
+  artifactKey: Guid(af17070fd82e1ad4ea9b30a5f0fd08f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Environment/Modules/ShootingRangeModules/GlowCenter2Geo.fbx using Guid(af17070fd82e1ad4ea9b30a5f0fd08f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0218424af176580bb3f86405a5d75b11') in 0.052024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Environment/Modules/ShootingRangeModules/CeilingFlat02Geo.fbx
+  artifactKey: Guid(d932696a3050fc54e9217b7eb148b865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Environment/Modules/ShootingRangeModules/CeilingFlat02Geo.fbx using Guid(d932696a3050fc54e9217b7eb148b865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '778ce250b31b8e4b30ff08d443aa422c') in 0.035885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Environment/Modules/FloorModules/FloorModuleAGeo.fbx
+  artifactKey: Guid(46072f1ede23b244bba01a8fa8b6484b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Environment/Modules/FloorModules/FloorModuleAGeo.fbx using Guid(46072f1ede23b244bba01a8fa8b6484b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f7f36019969c20fef8584b6fd7fbeb6') in 0.043112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Environment/Modules/ShootingRangeModules/GlowEdgeGeo.fbx
+  artifactKey: Guid(5b87a5f025d55e74bae60d6b2194585c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Environment/Modules/ShootingRangeModules/GlowEdgeGeo.fbx using Guid(5b87a5f025d55e74bae60d6b2194585c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07531bf418b111cef45c0ec98755a6f3') in 0.035981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Interactive/Lab/Generator/LabGeneratorGeo.fbx
+  artifactKey: Guid(866065e3f6b7ed74db49c4ee95fac277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Interactive/Lab/Generator/LabGeneratorGeo.fbx using Guid(866065e3f6b7ed74db49c4ee95fac277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f62e2f3221bb96619f53354279f370cb') in 0.273418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Interactive/Mirror/MirrorDisplayGeo.fbx
+  artifactKey: Guid(4fbf7c3c838a6564683b933c142590e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Interactive/Mirror/MirrorDisplayGeo.fbx using Guid(4fbf7c3c838a6564683b933c142590e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99a49b020d931c4aab16064e05fea394') in 0.061865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Interactive/Lab/Generator/LabGeneratorColliderGeo.fbx
+  artifactKey: Guid(cb4e3b86ce3f43547819d3540036d0a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Interactive/Lab/Generator/LabGeneratorColliderGeo.fbx using Guid(cb4e3b86ce3f43547819d3540036d0a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d13198d12fa278de6ec131e77374842') in 0.366314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Environment/Modules/FloorModules/FloorModuleSquareGeo.fbx
+  artifactKey: Guid(d7f62a63cedf0a54fb323a349e760866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Environment/Modules/FloorModules/FloorModuleSquareGeo.fbx using Guid(d7f62a63cedf0a54fb323a349e760866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40745a1f25a9fa4afa7398fc24581ad7') in 0.059748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Environment/Modules/Backgrounds/ShootingRangeBackground.fbx
+  artifactKey: Guid(4c5b525b032891548aa3d175afa7dc85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Environment/Modules/Backgrounds/ShootingRangeBackground.fbx using Guid(4c5b525b032891548aa3d175afa7dc85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e818ba111c7227abd3eb4e074ffc34a0') in 0.083950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Environment/Modules/ShootingRangeModules/FloorRangeGeo.fbx
+  artifactKey: Guid(6ae8b23d3cf8d544ba49c08f525e24e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Environment/Modules/ShootingRangeModules/FloorRangeGeo.fbx using Guid(6ae8b23d3cf8d544ba49c08f525e24e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62f0e1a69d8377c1080ec418b6ff2250') in 0.041486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Environment/Modules/FloorBaseRooms/FloorBaseRoomInitialGeo.fbx
+  artifactKey: Guid(1f3436d16c97e1c488283da092802ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/UltimateXR/0.9.6/Full Scene/Art/Environment/Modules/FloorBaseRooms/FloorBaseRoomInitialGeo.fbx using Guid(1f3436d16c97e1c488283da092802ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2323d599b0b067c8595d09d9b134756') in 0.072272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 503.673307 seconds.
+  path: Packages/com.unity.polybrush/Content/Icons/PaintVertexColors/Addcolor.png
+  artifactKey: Guid(b486e594301cfce45a4d460de6129309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.polybrush/Content/Icons/PaintVertexColors/Addcolor.png using Guid(b486e594301cfce45a4d460de6129309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e70c11f8fe2bf7e6733e89ab3de878f6') in 0.646493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Packages/com.unity.probuilder/Content/Icons/Toolbar/AltButton_Hover.png
+  artifactKey: Guid(d4f4647229a9f47a3b8739dad2c59db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Icons/Toolbar/AltButton_Hover.png using Guid(d4f4647229a9f47a3b8739dad2c59db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c021d2221d1cf77262c7aa5690867ca9') in 0.057024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Packages/com.unity.polybrush/Content/Icons/PaintVertexColors/Addcolor@2x.png
+  artifactKey: Guid(b99f32709f520244398802197c3fa2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.polybrush/Content/Icons/PaintVertexColors/Addcolor@2x.png using Guid(b99f32709f520244398802197c3fa2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9956ae8380374df367e1f635a1c0c6e3') in 0.032892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-light.png
+  artifactKey: Guid(397fff6c3885f8343bb65714f0064b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-light.png using Guid(397fff6c3885f8343bb65714f0064b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ace897ffdf0f2244ca2ee30050f5d4d9') in 0.029926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.929124 seconds.
+  path: Packages/com.unity.probuilder/Content/Icons/Toolbar/AltButton_Pressed.png
+  artifactKey: Guid(2306494ea7af64c58819a58d4396773f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Icons/Toolbar/AltButton_Pressed.png using Guid(2306494ea7af64c58819a58d4396773f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '988a8897a0725575b5787283e1e9ee26') in 0.047381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Packages/com.unity.probuilder/Content/Icons/Tools/ShapeTool/Arch.png
+  artifactKey: Guid(daaddaa51d20cb14a971727d2576c391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Icons/Tools/ShapeTool/Arch.png using Guid(daaddaa51d20cb14a971727d2576c391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc32659bfe886556794a9a6588969944') in 0.032481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Packages/com.unity.probuilder/Content/Icons/Tools/ShapeTool/on/Arch.png
+  artifactKey: Guid(59174e0e17d65334da602fa20193c69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Icons/Tools/ShapeTool/on/Arch.png using Guid(59174e0e17d65334da602fa20193c69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a777b58092bf266b110087a359d6ebf') in 0.033751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.104634 seconds.
+  path: Packages/com.unity.probuilder/Content/Icons/Tools/ShapeTool/Arch@2x_Light.png
+  artifactKey: Guid(883681e440ab51b4eb2f55fdc864b1c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Icons/Tools/ShapeTool/Arch@2x_Light.png using Guid(883681e440ab51b4eb2f55fdc864b1c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7f0fbf6de90c043b75fa76fb1d4610b') in 0.027452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBaseLine.psd
+  artifactKey: Guid(8bc445bb79654bf496c92d0407840a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBaseLine.psd using Guid(8bc445bb79654bf496c92d0407840a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4a0690a193e3942bc511eacd5b0d0d7') in 0.822125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignLeft.psd
+  artifactKey: Guid(9288066c33474b94b6ee5465f4df1cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignLeft.psd using Guid(9288066c33474b94b6ee5465f4df1cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fa78eba86376b2421196bb6ec8a831c') in 0.027820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignFlush.psd
+  artifactKey: Guid(691475c57a824010be0c6f474caeb7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignFlush.psd using Guid(691475c57a824010be0c6f474caeb7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c88c0200d1b7978d45217b14db3abcc8') in 0.026068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignJustified_Light.psd
+  artifactKey: Guid(fa6bd40a216346b783a4cce741d277a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignJustified_Light.psd using Guid(fa6bd40a216346b783a4cce741d277a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '496b20c3d801f19c224fe15828fa04fd') in 0.025723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignJustified.psd
+  artifactKey: Guid(92027f7f8cfc4feaa477da0dc38d3d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignJustified.psd using Guid(92027f7f8cfc4feaa477da0dc38d3d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dcc3ac8a4f703633a9713f9f4b88f5f') in 0.025551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenterGeo.psd
+  artifactKey: Guid(c76700ea0062413d9f69409b4e9e151b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenterGeo.psd using Guid(c76700ea0062413d9f69409b4e9e151b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5db33a3fce6104e8356873ba4c65422') in 0.025014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBottom.psd
+  artifactKey: Guid(ca51b19024094d1b87f3e07edb0a75fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBottom.psd using Guid(ca51b19024094d1b87f3e07edb0a75fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f4335a9803b230065235c3ed697201a') in 0.026948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenterGeo_Light.psd
+  artifactKey: Guid(35ff0937876540d3bd4b6a941df62a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenterGeo_Light.psd using Guid(35ff0937876540d3bd4b6a941df62a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '645d5886693a17f7c4c09c9a3ec61fa6') in 0.027225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-dark@2x.png
+  artifactKey: Guid(9c6313a5316f8a34b852bf94ff96e3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-dark@2x.png using Guid(9c6313a5316f8a34b852bf94ff96e3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07aad2051ce4c6418c16de773d843315') in 0.025837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Packages/com.unity.probuilder/Content/Icons/Toolbar/Bezier_Free.png
+  artifactKey: Guid(da4df1da6f6124e98950375683b8fe1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Icons/Toolbar/Bezier_Free.png using Guid(da4df1da6f6124e98950375683b8fe1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfd3a4e30368c113cee95103aa3ccd72') in 0.028532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Packages/com.unity.probuilder/Content/Icons/Toolbar/Bezier_Mirrored.png
+  artifactKey: Guid(ef7e9b1becafe43e08ebc38b881ce60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Icons/Toolbar/Bezier_Mirrored.png using Guid(ef7e9b1becafe43e08ebc38b881ce60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bdb7ce37f922562f513311fc6ca79b7') in 0.034834 seconds 
