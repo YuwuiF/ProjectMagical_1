@@ -1,0 +1,344 @@
+Unity Editor version:    2021.3.3f1 (af2e63e8f9bd)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.6.2 (Build 21G320)
+Darwin version:          21.6.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.3f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/zfang23/Documents/GitHub/ProjectMagical_1/My project
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+58799
+Successfully changed project path to: /Users/zfang23/Documents/GitHub/ProjectMagical_1/My project
+/Users/zfang23/Documents/GitHub/ProjectMagical_1/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 155.69 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 8.36 ms.
+Initialize engine version: 2021.3.3f1 (af2e63e8f9bd)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.3f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/zfang23/Documents/GitHub/ProjectMagical_1/My project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.3f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.3f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.3f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56070
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.3f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.3f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.3f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.003037 seconds.
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 119.12 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 1.03 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.600 seconds
+Domain Reload Profiling:
+	ReloadAssembly (600ms)
+		BeginReloadAssembly (133ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (394ms)
+			LoadAssemblies (137ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (84ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (18ms)
+			SetupLoadedEditorAssemblies (262ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (67ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (120ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (45ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.041755 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/zfang23/Documents/GitHub/ProjectMagical_1/My project/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/zfang23/Documents/GitHub/ProjectMagical_1/My project/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 113.17 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 2.70 ms.
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Completed reload, in  1.388 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1388ms)
+		BeginReloadAssembly (262ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (123ms)
+		EndReloadAssembly (1049ms)
+			LoadAssemblies (233ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (225ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (601ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (116ms)
+				BeforeProcessingInitializeOnLoad (218ms)
+				ProcessInitializeOnLoadAttributes (198ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.3f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.26 seconds
+Refreshing native plugins compatible for Editor in 0.87 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.42 ms.
+Unloading 6393 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 46 unused Assets / (0.8 MB). Loaded Objects now: 6845.
+Memory consumption went from 388.1 MB to 387.3 MB.
+Total: 5.319459 ms (FindLiveObjects: 0.280291 ms CreateObjectMapping: 0.085209 ms MarkObjects: 4.601166 ms  DeleteObjects: 0.352042 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 49550.208187 seconds.
+  path: Assets/Momi_Bat.fbx
+  artifactKey: Guid(988a7e91105f34867bd3d691f516128a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Momi_Bat.fbx using Guid(988a7e91105f34867bd3d691f516128a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5629f044e541c592a6c8c6e010f1e5e8') in 0.352605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 147.512459 seconds.
+  path: Assets/Baseball Bats/Assets/Materials/Mob_Baseball_Bat_02.mat
+  artifactKey: Guid(60fe59eabc96d9c49a76ba8ae3b9143f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baseball Bats/Assets/Materials/Mob_Baseball_Bat_02.mat using Guid(60fe59eabc96d9c49a76ba8ae3b9143f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a62a8ee493df290ef5920edbf651eda4') in 0.170088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Baseball Bats/Assets/Materials/PC_Baseball_Bat_12.mat
+  artifactKey: Guid(e4e8da6a406bb454f90ef8a96e5daa8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baseball Bats/Assets/Materials/PC_Baseball_Bat_12.mat using Guid(e4e8da6a406bb454f90ef8a96e5daa8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ee99cd3107b2d6b518baac832ede7ea') in 0.055969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Baseball Bats/Assets/Materials/Mob_Baseball_Bat_12.mat
+  artifactKey: Guid(e0f4b82e412119e4a8daf69ed722e9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baseball Bats/Assets/Materials/Mob_Baseball_Bat_12.mat using Guid(e0f4b82e412119e4a8daf69ed722e9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c3bdba1baedd34430f4d658c18c3de7') in 0.025157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Baseball Bats/Assets/Materials/PC_Baseball_Bat_09.mat
+  artifactKey: Guid(fd94c7d733fa0f04abca13c177eb2708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baseball Bats/Assets/Materials/PC_Baseball_Bat_09.mat using Guid(fd94c7d733fa0f04abca13c177eb2708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10fcb66c40800c047deaa35f575419cc') in 0.025388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Baseball Bats/Assets/Materials/Mob_Baseball_Bat_06.mat
+  artifactKey: Guid(b4e393c182ad48d4980f1dce70e2bfeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baseball Bats/Assets/Materials/Mob_Baseball_Bat_06.mat using Guid(b4e393c182ad48d4980f1dce70e2bfeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0c68df112345cf077245abf254daa35') in 0.019757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Baseball Bats/Assets/Materials/Mob_Baseball_Bat_13.mat
+  artifactKey: Guid(8b0d6e1001bc23d42b75e4f2cec7226a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baseball Bats/Assets/Materials/Mob_Baseball_Bat_13.mat using Guid(8b0d6e1001bc23d42b75e4f2cec7226a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cf37b4aa68badc89e3718334ed2e36d') in 0.028356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Baseball Bats/Assets/Materials/Mob_Baseball_Bat_11.mat
+  artifactKey: Guid(0e90727ca23ed6b4d93b9926932a398c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baseball Bats/Assets/Materials/Mob_Baseball_Bat_11.mat using Guid(0e90727ca23ed6b4d93b9926932a398c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7427ce9c092905c7bc8cf50f6da78ab') in 0.024981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Baseball Bats/Assets/Materials/Mob_Baseball_Bat_05.mat
+  artifactKey: Guid(8e38ee71710e7584d87ea2c6a8738e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baseball Bats/Assets/Materials/Mob_Baseball_Bat_05.mat using Guid(8e38ee71710e7584d87ea2c6a8738e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57a2ece18a75dc5888d7edf0c3dc4a96') in 0.032149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Baseball Bats/Assets/Materials/PC_Baseball_Bat_13.mat
+  artifactKey: Guid(9b84d96edec3e074a96ccba10ae0bf43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baseball Bats/Assets/Materials/PC_Baseball_Bat_13.mat using Guid(9b84d96edec3e074a96ccba10ae0bf43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b07480b0a5272e48206d8a16aaa3a48') in 0.033920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Baseball Bats/Assets/Materials/PC_Baseball_Bat_02.mat
+  artifactKey: Guid(4b3c44b05b0b6824f8a8ddfd3cc53743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baseball Bats/Assets/Materials/PC_Baseball_Bat_02.mat using Guid(4b3c44b05b0b6824f8a8ddfd3cc53743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13c98a2950d5c0f103b29c62a9883c0c') in 0.023731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Baseball Bats/Assets/Materials/PC_Baseball_Bat_05.mat
+  artifactKey: Guid(e6a229ede038ace4795f22d85f00937e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baseball Bats/Assets/Materials/PC_Baseball_Bat_05.mat using Guid(e6a229ede038ace4795f22d85f00937e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d46e0e1b08503c58441acdcdbbf7e20') in 0.030667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Baseball Bats/Assets/Materials/PC_Baseball_Bat_06.mat
+  artifactKey: Guid(942f34e22ac2e0f449d41d859255a01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baseball Bats/Assets/Materials/PC_Baseball_Bat_06.mat using Guid(942f34e22ac2e0f449d41d859255a01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9770526f19f52f6121e474a9718bb669') in 0.027423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Baseball Bats/Assets/Materials/PC_Baseball_Bat_01.mat
+  artifactKey: Guid(0c2ca16f3eff3e147867ef90edea1815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baseball Bats/Assets/Materials/PC_Baseball_Bat_01.mat using Guid(0c2ca16f3eff3e147867ef90edea1815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a504cce749f78af754a8e7e81fa14469') in 0.035502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 60.703704 seconds.
+  path: Assets/VRBeatsKit/Sprites/UI/SwordRenders/2.PNG
+  artifactKey: Guid(78f3aab24900ea448bae5fd3b1d692fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRBeatsKit/Sprites/UI/SwordRenders/2.PNG using Guid(78f3aab24900ea448bae5fd3b1d692fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e86e6b6b1e43cc197e681ce861f0fc6') in 1.225547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Add Binding.png
+  artifactKey: Guid(958a10dec4f3a4764bb345b0aa03510b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Add Binding.png using Guid(958a10dec4f3a4764bb345b0aa03510b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e5cfdbf5c50970d5e3b5f6d2f7e72d1') in 0.099020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Add Binding@2x.png
+  artifactKey: Guid(bb5fa99d6e9434c9ebf101c956021ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Add Binding@2x.png using Guid(bb5fa99d6e9434c9ebf101c956021ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69d50b8f1e28f811724fd851b99d8566') in 0.036478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/Resources/pro/actionTreeBackgroundWithoutBorder.png
+  artifactKey: Guid(943deaaee9c9347e0a455aa208526c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/Resources/pro/actionTreeBackgroundWithoutBorder.png using Guid(943deaaee9c9347e0a455aa208526c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1487bb2fd43293d6ec6e9a5e925ea7e7') in 0.026299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.114613 seconds.
+  path: Assets/Low Poly Bed Room Furniture PBR/Demo/Demo Scene/Lightmap-1_comp_light.exr
+  artifactKey: Guid(3f97f1a02b4810d44b46966d65937655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Bed Room Furniture PBR/Demo/Demo Scene/Lightmap-1_comp_light.exr using Guid(3f97f1a02b4810d44b46966d65937655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6e071b30b8e315922f1e8b76ec0ba8c') in 0.813223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Low Poly Bed Room Furniture PBR/Demo/Demo Scene/Lightmap-2_comp_light.exr
+  artifactKey: Guid(6e92ac89204251c469505de4811e93e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Bed Room Furniture PBR/Demo/Demo Scene/Lightmap-2_comp_light.exr using Guid(6e92ac89204251c469505de4811e93e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c35501fe003571f3b3626fd2a4b88330') in 0.062838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.293145 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Add Binding@4x.png
+  artifactKey: Guid(862c5ca31844d4a6d9aa804af982ce65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Add Binding@4x.png using Guid(862c5ca31844d4a6d9aa804af982ce65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aefa7d4ea126c74eee92b9c1bda78ee') in 0.041569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.036259 seconds.
+  path: Assets/VRBeatsKit/Models/VR_Sabers/1/Textures/Parts/BaseColor.png
+  artifactKey: Guid(c3d8057f3f8ca0e429c1f61b042253d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRBeatsKit/Models/VR_Sabers/1/Textures/Parts/BaseColor.png using Guid(c3d8057f3f8ca0e429c1f61b042253d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c2b75e3668a67c43ce7d01e5f2f0a59') in 0.037691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/VRBeatsKit/Models/FuturisticHand/Textures/BaseColor.png
+  artifactKey: Guid(c22e998a9dc40004bafb3adf8824e3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRBeatsKit/Models/FuturisticHand/Textures/BaseColor.png using Guid(c22e998a9dc40004bafb3adf8824e3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81743902731a129d683f027f75199e44') in 0.029956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/VRBeatsKit/Models/VR_Sabers/1/Textures/Base/BaseColor.png
+  artifactKey: Guid(3dfa7b0e47a02184bbff196c80e790f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRBeatsKit/Models/VR_Sabers/1/Textures/Base/BaseColor.png using Guid(3dfa7b0e47a02184bbff196c80e790f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '511a4f0218d4946c03e2a3401189b614') in 0.042209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/VRBeatsKit/Models/Cube/Textures/Body/BaseColor.png
+  artifactKey: Guid(195eea40ee614574ca1ca43d09a53209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRBeatsKit/Models/Cube/Textures/Body/BaseColor.png using Guid(195eea40ee614574ca1ca43d09a53209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0ed7648939540b8b21f47b6be3c6dc3') in 0.025324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.778867 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBaseLine_Light.psd
+  artifactKey: Guid(18775b51e3bd42299fd30bd036ea982f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBaseLine_Light.psd using Guid(18775b51e3bd42299fd30bd036ea982f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e424ed3a83402d5e164b996e2262cc9') in 0.740384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/VRBeatsKit/Models/Enviroment/Base/Textures/enviroment saber simulator_enviroment_suelo1_BaseColor.png
+  artifactKey: Guid(829d1c20d39e5b84e8bff929690fd7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRBeatsKit/Models/Enviroment/Base/Textures/enviroment saber simulator_enviroment_suelo1_BaseColor.png using Guid(829d1c20d39e5b84e8bff929690fd7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '009e5b1164c97f168ce703a3713801a7') in 0.020495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 483.581001 seconds.
+  path: Assets/MomiBat.prefab
+  artifactKey: Guid(3fa2649e867d9492d8dcf6a31d5bd561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MomiBat.prefab using Guid(3fa2649e867d9492d8dcf6a31d5bd561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0a8eccd517979ea6836b8889817dca1') in 0.148589 seconds 
